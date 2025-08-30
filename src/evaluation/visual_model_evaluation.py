@@ -16,24 +16,18 @@ import cv2
 pred_data_dir = "data/processed/raw"
 META_DATA_PATH = "data/raw/meta_data.csv"
 PREDICTIONS_DIR = "results/explainability/visual_model_evaluation"
-VISUAL_MODEL_PATH = "models/visual_model.pth/visual_model.pth"
+VISUAL_MODEL_PATH = "models/visual_model/visual_model.pth"
 os.makedirs(PREDICTIONS_DIR, exist_ok=True)
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ----------------------------- Model Definition -----------------------------
 
-class VisualModel(nn.Module):
-    def __init__(self, num_classes=2):
-        super(VisualModel, self).__init__()
-        self.backbone = models.resnet50(pretrained=False)
-        self.backbone.fc = nn.Linear(self.backbone.fc.in_features, num_classes)
-
-    def forward(self, x):
-        return self.backbone(x)
-
 def load_model():
-    model = VisualModel()
+    # Load ResNet18 directly to match saved weights
+    model = models.resnet18(weights=None)
+    model.fc = nn.Linear(model.fc.in_features, 2)
+    
     if os.path.exists(VISUAL_MODEL_PATH):
         model.load_state_dict(torch.load(VISUAL_MODEL_PATH, map_location=DEVICE))
         print(f"Model loaded from {VISUAL_MODEL_PATH}")
@@ -171,60 +165,106 @@ def load_metadata():
     return pd.read_csv(META_DATA_PATH)
 
 def evaluate_videos():
+    print(">>> Loading model...")
     model = load_model().to(DEVICE)
+    
+    print(">>> Loading metadata...")
     metadata_df = load_metadata()
-    sampled_df = metadata_df.sample(n=min(1000, len(metadata_df)), random_state=42)
+    print(f">>> Total metadata rows: {len(metadata_df)}")
+
+    # Filter by race and sample
+    filtered_df = metadata_df[metadata_df['race'].isin(["African", "Asian (East)"])]
+    print(f">>> Filtered to {len(filtered_df)} rows with race in ['African', 'Asian (East)']")
+
+    real_df = filtered_df[filtered_df['category'].isin(['A', 'B'])]
+    fake_df = filtered_df[filtered_df['category'].isin(['C', 'D'])]
+    print(f">>> Found {len(real_df)} real and {len(fake_df)} fake samples before sampling")
+
+    real_sample = real_df.sample(n=min(500, len(real_df)), random_state=42)
+    fake_sample = fake_df.sample(n=min(500, len(fake_df)), random_state=42)
+
+    sampled_df = pd.concat([real_sample, fake_sample]).reset_index(drop=True)
+    print(f">>> Sampled {len(real_sample)} real and {len(fake_sample)} fake videos")
 
     results = []
 
-    for _, row in tqdm(sampled_df.iterrows(), total=len(sampled_df), desc="Evaluating"):
-        if row['race'] not in ["African", "Asian (East)"]:
-            continue
-
-        video_path = os.path.join(row['path'], row['filename'])
+    for i, (_, row) in enumerate(tqdm(sampled_df.iterrows(), total=len(sampled_df), desc="Evaluating")):
+        video_path = os.path.join(row['full_path'],row['path'])
         if not os.path.exists(video_path):
+            print(f"[{i}] ✗ File not found: {video_path}")
             continue
 
         video_tensor = extract_frames_from_video(video_path)
         if video_tensor is None:
+            print(f"[{i}] ✗ Could not extract frames: {video_path}")
             continue
+        else:
+            print(f"[{i}] ✓ Extracted {video_tensor.shape[0]} frames from {video_path}")
 
         label = 1 if row['category'] in ['C', 'D'] else 0
         pred_class, prob = predict_video(model, video_tensor)
 
+        print(f"[{i}] Prediction: True={label} | Predicted={pred_class} | Prob=[Real:{prob[0]:.3f}, Fake:{prob[1]:.3f}]")
+
         results.append({
-            'filename': row['filename'],
+            'video_path': video_path,
+            'category': row['category'],
+            'race': row['race'],
             'true_label': label,
             'predicted': pred_class,
             'prob_class_0': prob[0],
             'prob_class_1': prob[1]
         })
 
-    # Save predictions to CSV
+    if not results:
+        print("✗ No valid videos found for evaluation")
+        return
+
     df_results = pd.DataFrame(results)
     output_csv = os.path.join(PREDICTIONS_DIR, "video_predictions.csv")
     df_results.to_csv(output_csv, index=False)
-    print(f"Saved predictions to {output_csv}")
+    print(f">>> ✓ Saved predictions to {output_csv}")
 
-    # Extract true labels, predicted labels, and scores
+    print(f">>> Processed {len(df_results)} videos")
+    print(f">>> Label distribution: Real={sum(df_results['true_label'] == 0)}, Fake={sum(df_results['true_label'] == 1)}")
+
     y_true = df_results['true_label'].values
     y_pred = df_results['predicted'].values
-    y_scores = df_results['prob_class_1'].values  # Probability of class 1 ('Fake')
+    y_scores = df_results['prob_class_1'].values
 
-    # Save evaluation plots and report
+    # Save plots and report
     cm_path = os.path.join(PREDICTIONS_DIR, "confusion_matrix.png")
     roc_path = os.path.join(PREDICTIONS_DIR, "roc_curve.png")
     dist_path = os.path.join(PREDICTIONS_DIR, "prediction_distribution.png")
     report_path = os.path.join(PREDICTIONS_DIR, "evaluation_report.txt")
 
+    print(">>> Generating confusion matrix...")
     plot_confusion_matrix(y_true, y_pred, cm_path)
-    roc_auc = plot_roc_curve(y_true, y_scores, roc_path)
-    plot_prediction_distribution(np.array(y_true), np.array(y_scores), dist_path)
-    save_evaluation_report(y_true, y_pred, y_scores, roc_auc, report_path)
+    print(f"✓ Saved confusion matrix to {cm_path}")
 
-    print(f"Saved evaluation plots and report to {PREDICTIONS_DIR}")
+    print(">>> Generating ROC curve...")
+    roc_auc = plot_roc_curve(y_true, y_scores, roc_path)
+    print(f"✓ Saved ROC curve to {roc_path}")
+
+    print(">>> Generating prediction distribution plot...")
+    plot_prediction_distribution(np.array(y_true), np.array(y_scores), dist_path)
+    print(f"✓ Saved prediction distribution plot to {dist_path}")
+
+    print(">>> Saving text report...")
+    save_evaluation_report(y_true, y_pred, y_scores, roc_auc, report_path)
+    print(f"✓ Saved report to {report_path}")
+
+    print("\n🎉 Evaluation complete!")
+    print(f"✔ Accuracy: {accuracy_score(y_true, y_pred):.4f}")
+    print(f"✔ AUC: {roc_auc:.4f}")
+    print(f"✔ Results saved to: {PREDICTIONS_DIR}")
 
 # ----------------------------- Entry Point -----------------------------
 
 if __name__ == "__main__":
-    evaluate_videos()
+    try:
+        evaluate_videos()
+    except Exception as e:
+        print(f"Error: {e}")
+        import traceback
+        traceback.print_exc()

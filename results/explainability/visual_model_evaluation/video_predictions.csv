@@ -1,0 +1,901 @@
+video_path,category,race,true_label,predicted,prob_class_0,prob_class_1
+data/raw/RealVideo-FakeAudio/African/men/id00701\00092_fake.mp4,B,African,0,1,0.16307528,0.8369247
+data/raw/RealVideo-FakeAudio/African/women/id03713\00249_fake.mp4,B,African,0,1,0.47604626,0.52395374
+data/raw/RealVideo-RealAudio/African/men/id01717\00005.mp4,A,African,0,1,0.3335775,0.66642255
+data/raw/RealVideo-FakeAudio/African/men/id00761\00072_fake.mp4,B,African,0,1,0.43298525,0.5670148
+data/raw/RealVideo-RealAudio/African/women/id04939\00174.mp4,A,African,0,1,0.4682654,0.5317346
+data/raw/RealVideo-RealAudio/African/women/id04374\00032.mp4,A,African,0,0,0.6395313,0.36046875
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id05332\00065_fake.mp4,B,Asian (East),0,0,0.5431869,0.4568131
+data/raw/RealVideo-RealAudio/African/women/id05106\00078.mp4,A,African,0,1,0.49653566,0.5034644
+data/raw/RealVideo-FakeAudio/African/women/id02071\00195_fake.mp4,B,African,0,1,0.15193039,0.8480696
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04789\002121.mp4,A,Asian (East),0,1,0.0029711742,0.9970288
+data/raw/RealVideo-RealAudio/African/men/id00701\00092.mp4,A,African,0,1,0.18581797,0.81418204
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id02807\00032_fake.mp4,B,Asian (East),0,1,0.39227748,0.6077225
+data/raw/RealVideo-RealAudio/African/women/id00592\00017.mp4,A,African,0,0,0.584779,0.41522098
+data/raw/RealVideo-RealAudio/African/women/id02808\00056.mp4,A,African,0,0,0.50884664,0.49115336
+data/raw/RealVideo-RealAudio/Asian (East)/men/id05743\00015.mp4,A,Asian (East),0,1,0.44268435,0.55731565
+data/raw/RealVideo-RealAudio/African/men/id02040\00476.mp4,A,African,0,1,0.43451363,0.5654863
+data/raw/RealVideo-FakeAudio/African/women/id03656\00052_fake.mp4,B,African,0,1,0.016770516,0.9832295
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06061\00002_fake.mp4,B,Asian (East),0,1,0.22335616,0.7766439
+data/raw/RealVideo-FakeAudio/African/men/id01637\00002_fake.mp4,B,African,0,1,0.1973002,0.8026998
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id07039\00105_fake.mp4,B,Asian (East),0,1,0.39504087,0.60495913
+data/raw/RealVideo-RealAudio/African/women/id03569\00065.mp4,A,African,0,1,0.41796064,0.58203936
+data/raw/RealVideo-RealAudio/African/men/id01036\00010.mp4,A,African,0,1,0.4238003,0.5761997
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id08397\00167_fake.mp4,B,Asian (East),0,1,0.49573845,0.50426155
+data/raw/RealVideo-FakeAudio/African/women/id02721\00424_fake.mp4,B,African,0,1,0.1829045,0.8170955
+data/raw/RealVideo-RealAudio/African/men/id00076\00109.mp4,A,African,0,1,0.4152115,0.5847885
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id09171\00092_fake.mp4,B,Asian (East),0,1,0.068244115,0.9317559
+data/raw/RealVideo-RealAudio/Asian (East)/men/id02553\00043.mp4,A,Asian (East),0,1,0.30069667,0.6993034
+data/raw/RealVideo-FakeAudio/African/men/id01528\00017_fake.mp4,B,African,0,1,0.44282746,0.5571726
+data/raw/RealVideo-FakeAudio/African/women/id01661\00059_fake.mp4,B,African,0,1,0.28996512,0.71003485
+data/raw/RealVideo-RealAudio/Asian (East)/men/id00740\00015.mp4,A,Asian (East),0,1,0.029805796,0.9701942
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id09125\00098_fake.mp4,B,Asian (East),0,1,0.10516767,0.8948323
+data/raw/RealVideo-RealAudio/Asian (East)/women/id08819\00052.mp4,A,Asian (East),0,0,0.50492394,0.4950761
+data/raw/RealVideo-FakeAudio/African/women/id01532\00065_fake.mp4,B,African,0,0,0.62757564,0.37242436
+data/raw/RealVideo-RealAudio/African/women/id00707\00052.mp4,A,African,0,1,0.2791621,0.72083783
+data/raw/RealVideo-FakeAudio/African/men/id01691\00045_fake.mp4,B,African,0,0,0.52230465,0.4776953
+data/raw/RealVideo-RealAudio/Asian (East)/men/id03028\00466.mp4,A,Asian (East),0,1,0.10939175,0.89060825
+data/raw/RealVideo-RealAudio/Asian (East)/men/id02493\00073.mp4,A,Asian (East),0,0,0.60934407,0.3906559
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06878\00001_fake.mp4,B,Asian (East),0,1,0.49770668,0.5022933
+data/raw/RealVideo-RealAudio/Asian (East)/women/id01281\00040.mp4,A,Asian (East),0,1,0.023028068,0.9769719
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06807\00015.mp4,A,Asian (East),0,0,0.541269,0.45873103
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06388\00005_fake.mp4,B,Asian (East),0,1,0.0016805892,0.9983194
+data/raw/RealVideo-RealAudio/African/women/id00577\00010.mp4,A,African,0,1,0.20970711,0.79029286
+data/raw/RealVideo-RealAudio/African/women/id03103\00130.mp4,A,African,0,1,0.09385668,0.9061433
+data/raw/RealVideo-RealAudio/African/men/id01528\00017.mp4,A,African,0,1,0.45084232,0.54915774
+data/raw/RealVideo-RealAudio/African/women/id04055\00001.mp4,A,African,0,0,0.7340462,0.26595378
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06427\00138_fake.mp4,B,Asian (East),0,0,0.54901445,0.45098558
+data/raw/RealVideo-RealAudio/Asian (East)/men/id09053\00005.mp4,A,Asian (East),0,1,0.249593,0.750407
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06388\00005.mp4,A,Asian (East),0,1,0.0021977178,0.99780226
+data/raw/RealVideo-RealAudio/African/men/id01392\00167.mp4,A,African,0,0,0.5145489,0.4854511
+data/raw/RealVideo-RealAudio/Asian (East)/women/id05844\00072.mp4,A,Asian (East),0,1,0.20628425,0.7937158
+data/raw/RealVideo-RealAudio/African/men/id02316\00094.mp4,A,African,0,0,0.5731101,0.4268899
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04222\00078_fake.mp4,B,Asian (East),0,1,0.2949682,0.7050318
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06591\00021_fake.mp4,B,Asian (East),0,1,0.33414727,0.6658528
+data/raw/RealVideo-RealAudio/African/women/id02617\00028.mp4,A,African,0,1,0.018921541,0.9810785
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06054\00010_fake.mp4,B,Asian (East),0,1,0.14897752,0.8510225
+data/raw/RealVideo-RealAudio/African/men/id01972\00078.mp4,A,African,0,1,0.3303606,0.66963947
+data/raw/RealVideo-FakeAudio/African/men/id01452\00001_fake.mp4,B,African,0,1,0.48287827,0.51712173
+data/raw/RealVideo-RealAudio/Asian (East)/women/id05631\00073.mp4,A,Asian (East),0,0,0.5029934,0.4970066
+data/raw/RealVideo-RealAudio/African/men/id01610\00090.mp4,A,African,0,1,0.24484548,0.7551545
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00430\00209.mp4,A,Asian (East),0,1,0.12920901,0.870791
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04726\00245.mp4,A,Asian (East),0,0,0.51354367,0.4864563
+data/raw/RealVideo-FakeAudio/African/women/id05106\00078_fake.mp4,B,African,0,1,0.48196262,0.5180374
+data/raw/RealVideo-FakeAudio/African/women/id00577\00010_fake.mp4,B,African,0,1,0.18221378,0.8177862
+data/raw/RealVideo-RealAudio/African/women/id03656\00052.mp4,A,African,0,1,0.024027847,0.97597206
+data/raw/RealVideo-RealAudio/Asian (East)/men/id00126\00173.mp4,A,Asian (East),0,1,0.39012116,0.6098789
+data/raw/RealVideo-RealAudio/African/men/id01637\00002.mp4,A,African,0,1,0.21844421,0.7815558
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00430\00209_fake.mp4,B,Asian (East),0,1,0.11369768,0.8863023
+data/raw/RealVideo-FakeAudio/African/women/id02508\00083_fake.mp4,B,African,0,1,0.2396881,0.7603119
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id09116\00026_fake.mp4,B,Asian (East),0,1,0.27676177,0.7232382
+data/raw/RealVideo-RealAudio/African/women/id02824\00130.mp4,A,African,0,0,0.52000344,0.47999653
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04111\00015_fake.mp4,B,Asian (East),0,0,0.50134146,0.49865854
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06776\00021.mp4,A,Asian (East),0,1,0.038381025,0.96161896
+data/raw/RealVideo-RealAudio/African/men/id00475\00099.mp4,A,African,0,0,0.5780623,0.42193773
+data/raw/RealVideo-RealAudio/African/men/id02296\00019.mp4,A,African,0,1,0.036788613,0.9632114
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id07799\00063_fake.mp4,B,Asian (East),0,1,0.22093773,0.7790623
+data/raw/RealVideo-FakeAudio/African/men/id02316\00094_fake.mp4,B,African,0,0,0.5692496,0.43075043
+data/raw/RealVideo-FakeAudio/African/men/id01544\00044_fake.mp4,B,African,0,0,0.5594481,0.44055185
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id04701\00017_fake.mp4,B,Asian (East),0,1,0.40299731,0.5970027
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06061\00002.mp4,A,Asian (East),0,1,0.22163358,0.7783663
+data/raw/RealVideo-FakeAudio/African/women/id04689\00005_fake.mp4,B,African,0,1,0.12129958,0.87870044
+data/raw/RealVideo-RealAudio/African/men/id00366\00118.mp4,A,African,0,1,0.48825562,0.5117444
+data/raw/RealVideo-RealAudio/African/men/id01171\00053.mp4,A,African,0,1,0.15343933,0.8465606
+data/raw/RealVideo-FakeAudio/African/men/id00173\00118_fake.mp4,B,African,0,1,0.34818456,0.6518154
+data/raw/RealVideo-FakeAudio/African/women/id00220\00027_fake.mp4,B,African,0,1,0.493202,0.50679797
+data/raw/RealVideo-FakeAudio/African/women/id02838\00080_fake.mp4,B,African,0,1,0.46617153,0.5338285
+data/raw/RealVideo-RealAudio/African/women/id01783\00015.mp4,A,African,0,1,0.35486972,0.6451303
+data/raw/RealVideo-FakeAudio/African/men/id02494\00050_fake.mp4,B,African,0,1,0.10326117,0.8967388
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id00126\00173_fake.mp4,B,Asian (East),0,1,0.357443,0.642557
+data/raw/RealVideo-RealAudio/Asian (East)/men/id01215\00001.mp4,A,Asian (East),0,1,0.40950763,0.59049237
+data/raw/RealVideo-RealAudio/African/women/id04705\00408.mp4,A,African,0,1,0.13662317,0.86337674
+data/raw/RealVideo-FakeAudio/African/men/id01717\00005_fake.mp4,B,African,0,1,0.327654,0.672346
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06467\00010_fake.mp4,B,Asian (East),0,0,0.5316625,0.46833748
+data/raw/RealVideo-RealAudio/Asian (East)/men/id03889\00052.mp4,A,Asian (East),0,1,0.31394553,0.68605447
+data/raw/RealVideo-FakeAudio/African/men/id01207\00320_fake.mp4,B,African,0,1,0.45097095,0.54902905
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06225\00005.mp4,A,Asian (East),0,0,0.5199004,0.48009962
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id02553\00043_fake.mp4,B,Asian (East),0,1,0.28566557,0.7143344
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id05844\00072_fake.mp4,B,Asian (East),0,1,0.2106135,0.7893865
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06225\00005_fake.mp4,B,Asian (East),0,0,0.5021481,0.4978519
+data/raw/RealVideo-FakeAudio/African/men/id01972\00078_fake.mp4,B,African,0,1,0.30239293,0.69760704
+data/raw/RealVideo-RealAudio/African/women/id02948\00298.mp4,A,African,0,1,0.087559454,0.91244054
+data/raw/RealVideo-FakeAudio/African/men/id02342\00191_fake.mp4,B,African,0,1,0.018412111,0.9815879
+data/raw/RealVideo-RealAudio/Asian (East)/men/id01683\00052.mp4,A,Asian (East),0,1,0.28114897,0.718851
+data/raw/RealVideo-RealAudio/African/men/id01076\00005.mp4,A,African,0,1,0.3042695,0.6957305
+data/raw/RealVideo-RealAudio/African/women/id02071\00195.mp4,A,African,0,1,0.167449,0.832551
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00566\00032.mp4,A,Asian (East),0,1,0.30371773,0.6962823
+data/raw/RealVideo-RealAudio/African/men/id00478\00206.mp4,A,African,0,0,0.54476285,0.45523715
+data/raw/RealVideo-RealAudio/African/men/id01179\00160.mp4,A,African,0,1,0.2945351,0.70546496
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06535\00183.mp4,A,Asian (East),0,1,0.42062983,0.57937014
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00582\00006_fake.mp4,B,Asian (East),0,1,0.41718298,0.582817
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id09143\00056_fake.mp4,B,Asian (East),0,1,0.45469502,0.54530495
+data/raw/RealVideo-RealAudio/Asian (East)/men/id05479\05479.mp4,A,Asian (East),0,0,0.6089308,0.39106923
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id07739\00019_fake.mp4,B,Asian (East),0,1,0.010618799,0.98938113
+data/raw/RealVideo-FakeAudio/African/women/id04820\00015_fake.mp4,B,African,0,1,0.195596,0.804404
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id07383\00011_fake.mp4,B,Asian (East),0,1,0.4260118,0.5739882
+data/raw/RealVideo-FakeAudio/African/women/id05251\00033_fake.mp4,B,African,0,1,0.19338784,0.80661213
+data/raw/RealVideo-RealAudio/African/women/id01178\00028.mp4,A,African,0,1,0.2870887,0.7129113
+data/raw/RealVideo-RealAudio/African/women/id03658\00077.mp4,A,African,0,1,0.19153377,0.8084662
+data/raw/RealVideo-FakeAudio/African/women/id04376\00181_fake.mp4,B,African,0,1,0.44542128,0.5545788
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id00863\00069_fake.mp4,B,Asian (East),0,1,0.49513593,0.5048641
+data/raw/RealVideo-FakeAudio/African/women/id03747\00273_fake.mp4,B,African,0,1,0.41502172,0.5849783
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00935\00005.mp4,A,Asian (East),0,1,0.2950796,0.7049204
+data/raw/RealVideo-RealAudio/Asian (East)/men/id01589\00017.mp4,A,Asian (East),0,0,0.61236167,0.38763833
+data/raw/RealVideo-RealAudio/African/men/id01170\00021.mp4,A,African,0,0,0.6555046,0.34449545
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id08652\00006_fake.mp4,B,Asian (East),0,1,0.18877116,0.8112289
+data/raw/RealVideo-RealAudio/African/men/id01521\00109.mp4,A,African,0,1,0.3435755,0.6564245
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06060\00219.mp4,A,Asian (East),0,1,0.48944664,0.51055336
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00363\00014_fake.mp4,B,Asian (East),0,1,0.23748346,0.7625166
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id05743\00015_fake.mp4,B,Asian (East),0,1,0.4650821,0.5349179
+data/raw/RealVideo-RealAudio/Asian (East)/women/id04144\00028.mp4,A,Asian (East),0,1,0.40561187,0.5943881
+data/raw/RealVideo-FakeAudio/African/men/id02296\00019_fake.mp4,B,African,0,1,0.026878936,0.97312105
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id02332\00055_fake.mp4,B,Asian (East),0,0,0.50826037,0.49173963
+data/raw/RealVideo-RealAudio/Asian (East)/men/id08299\00110.mp4,A,Asian (East),0,1,0.40038186,0.59961814
+data/raw/RealVideo-FakeAudio/African/women/id00829\00271_fake.mp4,B,African,0,0,0.60896325,0.39103675
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06065\00160.mp4,A,Asian (East),0,0,0.5442683,0.4557317
+data/raw/RealVideo-RealAudio/Asian (East)/men/id03965\00051.mp4,A,Asian (East),0,0,0.58158875,0.41841128
+data/raw/RealVideo-RealAudio/Asian (East)/women/id09116\00026.mp4,A,Asian (East),0,1,0.28875825,0.7112417
+data/raw/RealVideo-FakeAudio/African/men/id01598\00044_fake.mp4,B,African,0,0,0.53235346,0.46764654
+data/raw/RealVideo-FakeAudio/African/women/id01907\00148_fake.mp4,B,African,0,0,0.6285542,0.37144578
+data/raw/RealVideo-FakeAudio/African/men/id01171\00053_fake.mp4,B,African,0,1,0.13015512,0.86984485
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id01212\00183_fake.mp4,B,Asian (East),0,1,0.45056406,0.549436
+data/raw/RealVideo-RealAudio/African/men/id01856\00006.mp4,A,African,0,1,0.42055562,0.5794444
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06594\00002.mp4,A,Asian (East),0,1,0.4565125,0.5434875
+data/raw/RealVideo-FakeAudio/African/women/id04736\00083_fake.mp4,B,African,0,1,0.25574982,0.7442502
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00582\00006.mp4,A,Asian (East),0,1,0.43092895,0.569071
+data/raw/RealVideo-RealAudio/Asian (East)/women/id09171\00092.mp4,A,Asian (East),0,1,0.07865796,0.921342
+data/raw/RealVideo-FakeAudio/African/women/id04374\00032_fake.mp4,B,African,0,0,0.63633823,0.36366183
+data/raw/RealVideo-RealAudio/African/women/id00832\00078.mp4,A,African,0,1,0.347975,0.652025
+data/raw/RealVideo-RealAudio/Asian (East)/men/id02332\00055.mp4,A,Asian (East),0,0,0.51364255,0.48635748
+data/raw/RealVideo-RealAudio/Asian (East)/women/id04057\00015.mp4,A,Asian (East),0,1,0.34693268,0.65306735
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id03379\00032_fake.mp4,B,Asian (East),0,1,0.3507635,0.64923656
+data/raw/RealVideo-RealAudio/African/men/id00476\00109.mp4,A,African,0,1,0.0014433444,0.9985566
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06152\00302_fake.mp4,B,Asian (East),0,1,0.38109234,0.6189077
+data/raw/RealVideo-FakeAudio/African/women/id02948\00298_fake.mp4,B,African,0,1,0.062780626,0.9372193
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00137\00025.mp4,A,Asian (East),0,1,0.18643144,0.8135686
+data/raw/RealVideo-RealAudio/African/men/id00761\00072.mp4,A,African,0,1,0.4599809,0.54001904
+data/raw/RealVideo-RealAudio/Asian (East)/women/id08402\00092.mp4,A,Asian (East),0,1,0.2136803,0.78631973
+data/raw/RealVideo-RealAudio/Asian (East)/men/id00597\00019.mp4,A,Asian (East),0,1,0.3410269,0.6589731
+data/raw/RealVideo-RealAudio/African/women/id03747\00273.mp4,A,African,0,1,0.41079074,0.5892093
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id03028\00466_fake.mp4,B,Asian (East),0,1,0.08699158,0.9130084
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id09175\00072_fake.mp4,B,Asian (East),0,1,0.15873109,0.84126896
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06060\00219_fake.mp4,B,Asian (East),0,1,0.48696905,0.51303095
+data/raw/RealVideo-FakeAudio/African/men/id00518\00031_fake.mp4,B,African,0,1,0.39086932,0.60913074
+data/raw/RealVideo-FakeAudio/African/women/id04437\00002_fake.mp4,B,African,0,1,0.3204729,0.6795271
+data/raw/RealVideo-RealAudio/Asian (East)/women/id04414\00001.mp4,A,Asian (East),0,1,0.40689582,0.59310424
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00566\00032_fake.mp4,B,Asian (East),0,1,0.27737042,0.7226296
+data/raw/RealVideo-RealAudio/African/women/id04689\00005.mp4,A,African,0,1,0.1377905,0.86220956
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06065\00160_fake.mp4,B,Asian (East),0,0,0.5403393,0.4596607
+data/raw/RealVideo-RealAudio/Asian (East)/women/id03379\00032.mp4,A,Asian (East),0,1,0.36508766,0.6349123
+data/raw/RealVideo-RealAudio/Asian (East)/men/id08652\00006.mp4,A,Asian (East),0,1,0.20526806,0.794732
+data/raw/RealVideo-FakeAudio/African/men/id01597\00005_fake.mp4,B,African,0,1,0.30397168,0.69602835
+data/raw/RealVideo-RealAudio/African/women/id04820\00015.mp4,A,African,0,1,0.20892236,0.7910776
+data/raw/RealVideo-RealAudio/African/women/id02586\00042.mp4,A,African,0,1,0.049027517,0.95097244
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04691\1.mp4,A,Asian (East),0,0,0.61405903,0.38594094
+data/raw/RealVideo-RealAudio/African/women/id05235\00052.mp4,A,African,0,0,0.5939568,0.40604317
+data/raw/RealVideo-RealAudio/Asian (East)/men/id07102\00052.mp4,A,Asian (East),0,1,0.3457093,0.6542907
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04789\002121_fake.mp4,B,Asian (East),0,1,0.003151379,0.9968486
+data/raw/RealVideo-RealAudio/African/women/id05251\00033.mp4,A,African,0,1,0.20351338,0.7964866
+data/raw/RealVideo-FakeAudio/African/men/id01933\00028_fake.mp4,B,African,0,1,0.4956124,0.5043876
+data/raw/RealVideo-RealAudio/African/women/id02508\00083.mp4,A,African,0,1,0.24442726,0.75557274
+data/raw/RealVideo-RealAudio/African/men/id01452\00001.mp4,A,African,0,1,0.48496622,0.5150338
+data/raw/RealVideo-RealAudio/African/men/id01920\00099.mp4,A,African,0,0,0.5867082,0.41329178
+data/raw/RealVideo-RealAudio/Asian (East)/men/id07338\00003.mp4,A,Asian (East),0,1,0.33880392,0.6611961
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04687\00066.mp4,A,Asian (East),0,0,0.6214292,0.3785708
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06427\00138.mp4,A,Asian (East),0,0,0.55970275,0.44029725
+data/raw/RealVideo-RealAudio/African/women/id02301\00092.mp4,A,African,0,1,0.37711495,0.622885
+data/raw/RealVideo-RealAudio/Asian (East)/women/id09175\00072.mp4,A,Asian (East),0,1,0.18420157,0.81579846
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04726\00245_fake.mp4,B,Asian (East),0,1,0.4914508,0.5085492
+data/raw/RealVideo-FakeAudio/African/men/id01179\00160_fake.mp4,B,African,0,1,0.26005518,0.7399448
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id03168\03168_fake.mp4,B,Asian (East),0,1,0.121234715,0.8787653
+data/raw/RealVideo-RealAudio/Asian (East)/women/id09125\00098.mp4,A,Asian (East),0,1,0.11773304,0.882267
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04774\00032.mp4,A,Asian (East),0,1,0.009388264,0.9906118
+data/raw/RealVideo-RealAudio/Asian (East)/men/id08613\00074.mp4,A,Asian (East),0,1,0.46719146,0.5328085
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id05620\00005_fake.mp4,B,Asian (East),0,1,0.005057595,0.99494237
+data/raw/RealVideo-RealAudio/African/women/id04437\00002.mp4,A,African,0,1,0.34321883,0.65678114
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06470\00052_fake.mp4,B,Asian (East),0,0,0.59919876,0.4008012
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06776\00021.mp4,B,Asian (East),0,1,0.038381025,0.96161896
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06535\00183_fake.mp4,B,Asian (East),0,1,0.375946,0.624054
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00579\00030_fake.mp4,B,Asian (East),0,1,0.2688471,0.73115295
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06269\00005_fake.mp4,B,Asian (East),0,1,0.40757066,0.59242934
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id00560\00041_fake.mp4,B,Asian (East),0,1,0.0821922,0.91780776
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06443\00232.mp4,A,Asian (East),0,1,0.41961235,0.5803876
+data/raw/RealVideo-FakeAudio/African/men/id00366\00118_fake.mp4,B,African,0,1,0.47407657,0.5259234
+data/raw/RealVideo-FakeAudio/African/women/id04245\00072_fake.mp4,B,African,0,0,0.5463493,0.45365068
+data/raw/RealVideo-FakeAudio/African/men/id00781\00092_fake.mp4,B,African,0,0,0.5558036,0.4441964
+data/raw/RealVideo-FakeAudio/African/women/id04055\00001_fake.mp4,B,African,0,0,0.72959626,0.27040368
+data/raw/RealVideo-RealAudio/Asian (East)/men/id05332\00065.mp4,A,Asian (East),0,0,0.5409137,0.45908624
+data/raw/RealVideo-RealAudio/African/men/id01933\00028.mp4,A,African,0,0,0.52645576,0.47354424
+data/raw/RealVideo-RealAudio/African/men/id00781\00092.mp4,A,African,0,0,0.5678206,0.4321794
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04774\00032_fake.mp4,B,Asian (East),0,1,0.0073152874,0.9926847
+data/raw/RealVideo-RealAudio/Asian (East)/women/id07039\00105.mp4,A,Asian (East),0,1,0.41196498,0.588035
+data/raw/RealVideo-FakeAudio/African/men/id01392\00167_fake.mp4,B,African,0,0,0.50197816,0.4980218
+data/raw/RealVideo-RealAudio/Asian (East)/men/id02365\00028.mp4,A,Asian (East),0,1,0.2095319,0.7904681
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06158\00015.mp4,A,Asian (East),0,1,0.4910407,0.5089593
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04884\00028_fake.mp4,B,Asian (East),0,1,0.253053,0.746947
+data/raw/RealVideo-FakeAudio/African/women/id05980\00143_fake.mp4,B,African,0,1,0.34005147,0.6599485
+data/raw/RealVideo-RealAudio/Asian (East)/men/id03168\03168.mp4,A,Asian (East),0,1,0.1383918,0.8616082
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id04414\00001_fake.mp4,B,Asian (East),0,1,0.4026897,0.59731025
+data/raw/RealVideo-FakeAudio/African/women/id03569\00065_fake.mp4,B,African,0,1,0.39856648,0.6014335
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06462\00014_fake.mp4,B,Asian (East),0,1,0.01434035,0.98565966
+data/raw/RealVideo-FakeAudio/African/women/id04540\00078_fake.mp4,B,African,0,1,0.4384548,0.5615452
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id03211\00032_fake.mp4,B,Asian (East),0,0,0.6096889,0.39031112
+data/raw/RealVideo-RealAudio/Asian (East)/women/id03940\00025.mp4,A,Asian (East),0,1,0.29609177,0.70390826
+data/raw/RealVideo-FakeAudio/African/women/id00460\00005_fake.mp4,B,African,0,1,0.238138,0.7618619
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06470\00052.mp4,A,Asian (East),0,0,0.601389,0.39861095
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00579\00030.mp4,A,Asian (East),0,1,0.30094284,0.6990571
+data/raw/RealVideo-RealAudio/Asian (East)/women/id09181\00048.mp4,A,Asian (East),0,1,0.16508932,0.83491063
+data/raw/RealVideo-RealAudio/Asian (East)/women/id09174\00015.mp4,A,Asian (East),0,1,0.037243966,0.96275604
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id08402\00092_fake.mp4,B,Asian (East),0,1,0.17697848,0.82302153
+data/raw/RealVideo-RealAudio/African/men/id00173\00118.mp4,A,African,0,1,0.36450577,0.6354943
+data/raw/RealVideo-FakeAudio/African/men/id00391\00052_fake.mp4,B,African,0,1,0.043570798,0.9564292
+data/raw/RealVideo-RealAudio/Asian (East)/men/id02561\02561.mp4,A,Asian (East),0,1,0.28155005,0.71844995
+data/raw/RealVideo-FakeAudio/African/men/id01779\00010_fake.mp4,B,African,0,1,0.44381592,0.55618405
+data/raw/RealVideo-FakeAudio/African/men/id01920\00099_fake.mp4,B,African,0,0,0.58437043,0.41562957
+data/raw/RealVideo-RealAudio/African/men/id01530\00002.mp4,A,African,0,1,0.22068451,0.7793155
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04111\00015.mp4,A,Asian (East),0,0,0.50934714,0.49065286
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00935\00005_fake.mp4,B,Asian (East),0,1,0.25575373,0.74424636
+data/raw/RealVideo-FakeAudio/African/men/id01521\00109_fake.mp4,B,African,0,1,0.32354495,0.676455
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id02587\00020_fake.mp4,B,Asian (East),0,0,0.557716,0.44228402
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06066\00028_fake.mp4,B,Asian (East),0,1,0.19091052,0.8090894
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00137\00025_fake.mp4,B,Asian (East),0,1,0.18178838,0.81821156
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06158\00015_fake.mp4,B,Asian (East),0,1,0.47944868,0.5205513
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04884\00028.mp4,A,Asian (East),0,1,0.25840843,0.7415916
+data/raw/RealVideo-RealAudio/African/women/id02838\00080.mp4,A,African,0,1,0.4677297,0.5322703
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04687\00066_fake.mp4,B,Asian (East),0,0,0.61554664,0.38445342
+data/raw/RealVideo-RealAudio/African/men/id01598\00044.mp4,A,African,0,0,0.5395715,0.4604285
+data/raw/RealVideo-RealAudio/African/women/id04245\00072.mp4,A,African,0,0,0.54902923,0.45097074
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id07901\00040_fake.mp4,B,Asian (East),0,0,0.6691778,0.33082232
+data/raw/RealVideo-RealAudio/Asian (East)/men/id01212\00183.mp4,A,Asian (East),0,1,0.44571108,0.554289
+data/raw/RealVideo-FakeAudio/African/men/id04727\00007_fake.mp4,B,African,0,0,0.51124924,0.48875076
+data/raw/RealVideo-FakeAudio/African/women/id05235\00052_fake.mp4,B,African,0,0,0.5651406,0.4348594
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06152\06152.mp4,A,Asian (East),0,1,0.39241216,0.6075879
+data/raw/RealVideo-FakeAudio/African/men/id02268\00036_fake.mp4,B,African,0,0,0.63079464,0.36920533
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06462\00014.mp4,A,Asian (East),0,1,0.0193732,0.9806268
+data/raw/RealVideo-FakeAudio/African/women/id04705\00408_fake.mp4,B,African,0,1,0.103920504,0.89607954
+data/raw/RealVideo-RealAudio/African/men/id02268\00036.mp4,A,African,0,0,0.63082874,0.36917126
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id04144\00028_fake.mp4,B,Asian (East),0,1,0.39115512,0.6088449
+data/raw/RealVideo-RealAudio/African/women/id01907\00148.mp4,A,African,0,0,0.6347935,0.36520648
+data/raw/RealVideo-RealAudio/African/women/id04376\00181.mp4,A,African,0,1,0.47110194,0.52889806
+data/raw/RealVideo-FakeAudio/African/men/id02040\00476_fake.mp4,B,African,0,1,0.42003405,0.57996595
+data/raw/RealVideo-RealAudio/Asian (East)/women/id07383\00011.mp4,A,Asian (East),0,1,0.43736258,0.5626374
+data/raw/RealVideo-RealAudio/Asian (East)/women/id01451\00099.mp4,A,Asian (East),0,1,0.25656936,0.7434307
+data/raw/RealVideo-RealAudio/African/men/id00830\00143.mp4,A,African,0,1,0.3023308,0.6976692
+data/raw/RealVideo-RealAudio/African/men/id01835\00130.mp4,A,African,0,1,0.1848354,0.81516457
+data/raw/RealVideo-RealAudio/African/men/id01597\00005.mp4,A,African,0,1,0.33344072,0.6665593
+data/raw/RealVideo-RealAudio/Asian (East)/women/id05576\00368.mp4,A,Asian (East),0,1,0.36715904,0.632841
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06878\00001.mp4,A,Asian (East),0,0,0.5137032,0.48629677
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id03889\00052_fake.mp4,B,Asian (East),0,1,0.30489558,0.69510436
+data/raw/RealVideo-FakeAudio/African/women/id02808\00056_fake.mp4,B,African,0,1,0.4904824,0.50951767
+data/raw/RealVideo-FakeAudio/African/men/id01236\00005_fake.mp4,B,African,0,0,0.5396459,0.4603541
+data/raw/RealVideo-RealAudio/African/women/id05231\00149.mp4,A,African,0,1,0.24650414,0.7534959
+data/raw/RealVideo-RealAudio/African/women/id00359\00053.mp4,A,African,0,1,0.44400442,0.5559956
+data/raw/RealVideo-FakeAudio/African/men/id01995\00071_fake.mp4,B,African,0,0,0.632313,0.36768696
+data/raw/RealVideo-FakeAudio/African/women/id05252\00052_fake.mp4,B,African,0,1,0.33099797,0.669002
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id00740\00015_fake.mp4,B,Asian (East),0,1,0.023631888,0.97636807
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06066\00028.mp4,A,Asian (East),0,1,0.23098467,0.7690153
+data/raw/RealVideo-RealAudio/African/men/id02005\00052.mp4,A,African,0,1,0.43883926,0.5611607
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id01683\00052_fake.mp4,B,Asian (East),0,1,0.2678239,0.73217607
+data/raw/RealVideo-FakeAudio/African/men/id00476\00109_fake.mp4,B,African,0,1,0.0012029075,0.9987971
+data/raw/RealVideo-FakeAudio/African/women/id00568\00384_fake.mp4,B,African,0,1,0.06899212,0.93100786
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id05479\05479_fake.mp4,B,Asian (East),0,0,0.599694,0.400306
+data/raw/RealVideo-RealAudio/African/men/id00391\00052.mp4,A,African,0,1,0.055041548,0.94495845
+data/raw/RealVideo-FakeAudio/African/women/id00592\00017_fake.mp4,B,African,0,0,0.5701419,0.4298581
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id01281\00040_fake.mp4,B,Asian (East),0,1,0.020560611,0.9794394
+data/raw/RealVideo-RealAudio/Asian (East)/men/id00056\00028.mp4,A,Asian (East),0,1,0.35699964,0.64300036
+data/raw/RealVideo-FakeAudio/African/men/id01530\00002_fake.mp4,B,African,0,1,0.19131166,0.8086883
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06807\00015_fake.mp4,B,Asian (East),0,0,0.53718626,0.46281368
+data/raw/RealVideo-FakeAudio/African/men/id00944\00135_fake.mp4,B,African,0,1,0.08993504,0.91006494
+data/raw/RealVideo-RealAudio/Asian (East)/women/id05620\00005.mp4,A,Asian (East),0,1,0.0035224028,0.9964776
+data/raw/RealVideo-RealAudio/African/women/id05252\00052.mp4,A,African,0,1,0.37942863,0.6205714
+data/raw/RealVideo-FakeAudio/African/men/id01036\00010_fake.mp4,B,African,0,1,0.39281845,0.60718155
+data/raw/RealVideo-RealAudio/African/women/id01532\00065.mp4,A,African,0,0,0.63110113,0.36889887
+data/raw/RealVideo-RealAudio/African/men/id02342\00191.mp4,A,African,0,1,0.025890708,0.9741093
+data/raw/RealVideo-RealAudio/African/men/id01691\00045.mp4,A,African,0,0,0.5327418,0.46725813
+data/raw/RealVideo-FakeAudio/African/women/id02301\00092_fake.mp4,B,African,0,1,0.3224584,0.6775417
+data/raw/RealVideo-FakeAudio/African/men/id00076\00109_fake.mp4,B,African,0,1,0.4073754,0.5926246
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id00763\00074_fake.mp4,B,Asian (East),0,0,0.62564087,0.37435913
+data/raw/RealVideo-RealAudio/African/men/id01544\00044.mp4,A,African,0,0,0.5604749,0.4395252
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id02365\00028_fake.mp4,B,Asian (East),0,1,0.17883292,0.8211671
+data/raw/RealVideo-FakeAudio/African/men/id01610\00090_fake.mp4,B,African,0,1,0.2043328,0.79566723
+data/raw/RealVideo-FakeAudio/African/women/id01178\00028_fake.mp4,B,African,0,1,0.24934891,0.7506511
+data/raw/RealVideo-FakeAudio/African/women/id04547\00052_fake.mp4,B,African,0,1,0.41978204,0.58021796
+data/raw/RealVideo-RealAudio/Asian (East)/women/id03211\00032.mp4,A,Asian (East),0,0,0.61717284,0.3828271
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id05576\00368_fake.mp4,B,Asian (East),0,1,0.34913224,0.65086776
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06591\00021.mp4,A,Asian (East),0,1,0.34012523,0.6598748
+data/raw/RealVideo-RealAudio/African/women/id01661\00059.mp4,A,African,0,1,0.29969686,0.70030314
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06467\00010.mp4,A,Asian (East),0,0,0.5346338,0.46536618
+data/raw/RealVideo-RealAudio/Asian (East)/men/id05268\00010.mp4,A,Asian (East),0,0,0.5771163,0.42288372
+data/raw/RealVideo-RealAudio/African/men/id00518\00031.mp4,A,African,0,1,0.4063783,0.59362173
+data/raw/RealVideo-RealAudio/African/women/id01838\00126.mp4,A,African,0,0,0.6436378,0.3563622
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id00056\00028_fake.mp4,B,Asian (East),0,1,0.3551383,0.6448617
+data/raw/RealVideo-RealAudio/African/men/id00987\00160.mp4,A,African,0,1,0.17183907,0.8281609
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00763\00074.mp4,A,Asian (East),0,0,0.6291746,0.3708254
+data/raw/RealVideo-RealAudio/African/men/id01995\00071.mp4,A,African,0,0,0.6413879,0.3586121
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id04066\00013_fake.mp4,B,Asian (East),0,0,0.51009125,0.48990875
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id04691\1_fake.mp4,B,Asian (East),0,0,0.6168078,0.38319218
+data/raw/RealVideo-FakeAudio/African/men/id01076\00005_fake.mp4,B,African,0,1,0.28597647,0.71402353
+data/raw/RealVideo-FakeAudio/African/women/id03658\00077_fake.mp4,B,African,0,1,0.15879071,0.8412093
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id08613\00074_fake.mp4,B,Asian (East),0,1,0.46969187,0.5303081
+data/raw/RealVideo-FakeAudio/African/men/id01856\00006_fake.mp4,B,African,0,1,0.41047317,0.5895269
+data/raw/RealVideo-FakeAudio/African/men/id00478\00206_fake.mp4,B,African,0,0,0.5445456,0.4554544
+data/raw/RealVideo-FakeAudio/African/men/id00830\00143_fake.mp4,B,African,0,1,0.27402073,0.7259792
+data/raw/RealVideo-FakeAudio/African/women/id05231\00149_fake.mp4,B,African,0,1,0.22706255,0.7729375
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id03940\00025_fake.mp4,B,Asian (East),0,1,0.27855325,0.72144675
+data/raw/RealVideo-FakeAudio/African/women/id00359\00053_fake.mp4,B,African,0,1,0.43515414,0.56484586
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id08139\00067_fake.mp4,B,Asian (East),0,0,0.61757433,0.38242567
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id04057\00015_fake.mp4,B,Asian (East),0,1,0.3300397,0.66996026
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id00597\00019_fake.mp4,B,Asian (East),0,1,0.3377969,0.6622031
+data/raw/RealVideo-FakeAudio/African/women/id02586\00042_fake.mp4,B,African,0,1,0.041902937,0.9580971
+data/raw/RealVideo-FakeAudio/African/men/id00166\00010_fake.mp4,B,African,0,1,0.4290154,0.5709846
+data/raw/RealVideo-RealAudio/Asian (East)/women/id02807\00032.mp4,A,Asian (East),0,1,0.40997744,0.59002256
+data/raw/RealVideo-RealAudio/African/men/id02051\00015.mp4,A,African,0,1,0.19365758,0.80634236
+data/raw/RealVideo-FakeAudio/African/men/id01170\00021_fake.mp4,B,African,0,0,0.65871197,0.341288
+data/raw/RealVideo-RealAudio/Asian (East)/women/id08139\00067.mp4,A,Asian (East),0,0,0.6290782,0.3709218
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id01589\00017_fake.mp4,B,Asian (East),0,0,0.6139461,0.38605392
+data/raw/RealVideo-FakeAudio/African/women/id00832\00078_fake.mp4,B,African,0,1,0.34286863,0.6571314
+data/raw/RealVideo-RealAudio/Asian (East)/men/id00863\00069.mp4,A,Asian (East),0,0,0.50485003,0.4951499
+data/raw/RealVideo-RealAudio/African/women/id00460\00005.mp4,A,African,0,1,0.27309638,0.7269036
+data/raw/RealVideo-RealAudio/African/men/id00166\00010.mp4,A,African,0,1,0.43606925,0.56393075
+data/raw/RealVideo-RealAudio/African/men/id04727\00007.mp4,A,African,0,0,0.5259723,0.47402772
+data/raw/RealVideo-RealAudio/African/women/id03713\00249.mp4,A,African,0,0,0.50052136,0.49947864
+data/raw/RealVideo-FakeAudio/African/men/id00475\00099_fake.mp4,B,African,0,0,0.56939864,0.4306013
+data/raw/RealVideo-RealAudio/African/men/id01779\00010.mp4,A,African,0,1,0.47353154,0.5264684
+data/raw/RealVideo-FakeAudio/African/women/id01783\00015_fake.mp4,B,African,0,1,0.30422956,0.69577044
+data/raw/RealVideo-RealAudio/African/women/id04736\00083.mp4,A,African,0,1,0.28872696,0.711273
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id06594\00002_fake.mp4,B,Asian (East),0,1,0.450262,0.54973793
+data/raw/RealVideo-RealAudio/African/women/id00371\00099.mp4,A,African,0,1,0.35917974,0.64082026
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id08299\00110_fake.mp4,B,Asian (East),0,1,0.3920411,0.6079589
+data/raw/RealVideo-FakeAudio/African/women/id01838\00126_fake.mp4,B,African,0,0,0.6366703,0.36332965
+data/raw/RealVideo-FakeAudio/African/men/id02005\00052_fake.mp4,B,African,0,1,0.4048914,0.59510857
+data/raw/RealVideo-RealAudio/African/men/id00944\00135.mp4,A,African,0,1,0.11703761,0.8829624
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id02561\02561_fake.mp4,B,Asian (East),0,1,0.27898818,0.7210119
+data/raw/RealVideo-RealAudio/African/women/id04547\00052.mp4,A,African,0,1,0.42495352,0.5750465
+data/raw/RealVideo-FakeAudio/African/women/id02824\00130_fake.mp4,B,African,0,0,0.512938,0.48706195
+data/raw/RealVideo-RealAudio/Asian (East)/women/id04066\00013.mp4,A,Asian (East),0,0,0.5173745,0.48262548
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id05268\00010_fake.mp4,B,Asian (East),0,0,0.5846206,0.4153795
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id08819\00052_fake.mp4,B,Asian (East),0,0,0.50047207,0.49952796
+data/raw/RealVideo-RealAudio/Asian (East)/men/id06269\00005.mp4,A,Asian (East),0,1,0.430766,0.569234
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id01204\00092_fake.mp4,B,Asian (East),0,1,0.40717983,0.59282017
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id06443\00232_fake.mp4,B,Asian (East),0,1,0.42531347,0.5746865
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id03965\00051_fake.mp4,B,Asian (East),0,0,0.5755721,0.4244279
+data/raw/RealVideo-FakeAudio/African/men/id02051\00015_fake.mp4,B,African,0,1,0.1727538,0.8272462
+data/raw/RealVideo-RealAudio/African/women/id00568\00384.mp4,A,African,0,1,0.07916443,0.92083555
+data/raw/RealVideo-RealAudio/African/women/id00220\00027.mp4,A,African,0,1,0.4950266,0.5049734
+data/raw/RealVideo-RealAudio/Asian (East)/women/id06054\00010.mp4,A,Asian (East),0,1,0.16446592,0.8355341
+data/raw/RealVideo-RealAudio/Asian (East)/women/id07901\00040.mp4,A,Asian (East),0,0,0.67411053,0.32588944
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id09174\00015_fake.mp4,B,Asian (East),0,1,0.025423931,0.97457606
+data/raw/RealVideo-RealAudio/Asian (East)/women/id07739\00019.mp4,A,Asian (East),0,1,0.014037838,0.98596215
+data/raw/RealVideo-RealAudio/Asian (East)/women/id04701\00017.mp4,A,Asian (East),0,1,0.41399178,0.5860082
+data/raw/RealVideo-RealAudio/African/women/id00829\00271.mp4,A,African,0,0,0.63142455,0.36857545
+data/raw/RealVideo-RealAudio/African/men/id02494\00050.mp4,A,African,0,1,0.115972176,0.88402784
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id07338\00003_fake.mp4,B,Asian (East),0,1,0.31931055,0.6806894
+data/raw/RealVideo-FakeAudio/African/men/id01835\00130_fake.mp4,B,African,0,1,0.15495041,0.84504956
+data/raw/RealVideo-FakeAudio/African/women/id00371\00099_fake.mp4,B,African,0,1,0.33180633,0.6681937
+data/raw/RealVideo-RealAudio/African/men/id01236\00005.mp4,A,African,0,0,0.54533476,0.45466524
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id02493\00073_fake.mp4,B,Asian (East),0,0,0.60463595,0.3953641
+data/raw/RealVideo-RealAudio/Asian (East)/women/id02587\00020.mp4,A,Asian (East),0,0,0.56379414,0.43620586
+data/raw/RealVideo-FakeAudio/African/women/id03103\00130_fake.mp4,B,African,0,1,0.08240625,0.9175938
+data/raw/RealVideo-RealAudio/Asian (East)/women/id08397\00167.mp4,A,Asian (East),0,1,0.49811813,0.50188184
+data/raw/RealVideo-FakeAudio/African/women/id04939\00174_fake.mp4,B,African,0,1,0.44300908,0.5569909
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id07102\00052_fake.mp4,B,Asian (East),0,1,0.3148688,0.6851312
+data/raw/RealVideo-FakeAudio/African/women/id00707\00052_fake.mp4,B,African,0,1,0.22659382,0.77340615
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id01215\00001_fake.mp4,B,Asian (East),0,1,0.3591442,0.6408558
+data/raw/RealVideo-RealAudio/Asian (East)/men/id09143\00056.mp4,A,Asian (East),0,1,0.49129552,0.5087045
+data/raw/RealVideo-RealAudio/Asian (East)/men/id05383\00015.mp4,A,Asian (East),0,0,0.5956201,0.4043799
+data/raw/RealVideo-RealAudio/Asian (East)/women/id00363\00014.mp4,A,Asian (East),0,1,0.24439979,0.7556002
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id01451\00099_fake.mp4,B,Asian (East),0,1,0.24428007,0.7557199
+data/raw/RealVideo-RealAudio/African/women/id05980\00143.mp4,A,African,0,1,0.3780005,0.6219995
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id05631\00073_fake.mp4,B,Asian (East),0,1,0.49667755,0.5033224
+data/raw/RealVideo-RealAudio/African/women/id04540\00078.mp4,A,African,0,1,0.4435417,0.55645835
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id05383\00015_fake.mp4,B,Asian (East),0,0,0.59984523,0.40015477
+data/raw/RealVideo-FakeAudio/African/men/id00987\00160_fake.mp4,B,African,0,1,0.16375151,0.8362485
+data/raw/RealVideo-RealAudio/Asian (East)/men/id04222\00078.mp4,A,Asian (East),0,1,0.3282283,0.67177165
+data/raw/RealVideo-FakeAudio/Asian (East)/women/id09181\00048_fake.mp4,B,Asian (East),0,1,0.1363759,0.8636241
+data/raw/RealVideo-RealAudio/African/men/id01207\00320.mp4,A,African,0,1,0.47091484,0.52908516
+data/raw/RealVideo-RealAudio/Asian (East)/women/id07799\00063.mp4,A,Asian (East),0,1,0.22502568,0.77497435
+data/raw/RealVideo-RealAudio/African/women/id02721\00424.mp4,A,African,0,1,0.20644376,0.7935562
+data/raw/RealVideo-RealAudio/Asian (East)/men/id01204\00092.mp4,A,Asian (East),0,1,0.41358048,0.5864196
+data/raw/RealVideo-FakeAudio/African/women/id02617\00028_fake.mp4,B,African,0,1,0.013485979,0.986514
+data/raw/RealVideo-FakeAudio/Asian (East)/men/id09053\00005_fake.mp4,B,Asian (East),0,1,0.23256508,0.7674349
+data/raw/RealVideo-RealAudio/Asian (East)/men/id00560\00041.mp4,A,Asian (East),0,1,0.105695024,0.894305
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06225\00005_id06388_AtidJ-WlONc_id06462_wavtolip.mp4,D,Asian (East),1,1,0.31551576,0.6844842
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04066\00013_id04701_wavtolip.mp4,C,Asian (East),1,1,0.3923998,0.6076002
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id02561\02561_id04726_wavtolip.mp4,D,Asian (East),1,1,0.14512238,0.8548776
+data/raw/FakeVideo-RealAudio/African/men/id01236\00005_id02051_wavtolip.mp4,C,African,1,1,0.4942559,0.5057441
+data/raw/FakeVideo-RealAudio/African/women/id00577\00010_id00371_t20i0HtPwW0.mp4,C,African,1,1,0.17012264,0.8298774
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id03889\00052_id02365_KTHM_LvjcgY_id03168_wavtolip.mp4,D,Asian (East),1,1,0.12650064,0.8734994
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06225\00005_id00137_L22Rc38U5BA_id09181_wavtolip.mp4,D,Asian (East),1,1,0.28393397,0.716066
+data/raw/FakeVideo-RealAudio/African/women/id05231\00149_id01178_6XpgYMiKxhc_faceswap.mp4,C,African,1,1,0.12727366,0.87272626
+data/raw/FakeVideo-FakeAudio/African/men/id00476\00109_id00781_fvsSae9yc0A_faceswap_id00476_wavtolip.mp4,D,African,1,1,0.00027218863,0.99972785
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id05631\00073_id04414_wavtolip.mp4,C,Asian (East),1,1,0.3836944,0.6163056
+data/raw/FakeVideo-RealAudio/African/women/id04705\00408_id04055_wavtolip.mp4,C,African,1,1,0.043590583,0.95640945
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02553\00043_id01215_wavtolip.mp4,C,Asian (East),1,1,0.20815942,0.79184055
+data/raw/FakeVideo-RealAudio/African/women/id01907\00148_id05235_ASy8lP3SRtw_faceswap.mp4,C,African,1,0,0.5880999,0.4119001
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id04066\00013_id00566_V3Hg_HMhuwQ_faceswap_id03379_wavtolip.mp4,D,Asian (East),1,1,0.21176517,0.78823483
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00597\00019_id00740_wavtolip.mp4,D,Asian (East),1,1,0.19235492,0.8076451
+data/raw/FakeVideo-FakeAudio/African/men/id01452\00001_id01528_SBAS9Kcb8QY_faceswap_id00987_wavtolip.mp4,D,African,1,1,0.24732651,0.75267345
+data/raw/FakeVideo-RealAudio/African/women/id04374\00032_id00460_wavtolip.mp4,C,African,1,0,0.6101404,0.38985962
+data/raw/FakeVideo-RealAudio/African/women/id02617\00028_id02071_cHuDh9F87vA.mp4,C,African,1,1,0.011242022,0.98875797
+data/raw/FakeVideo-RealAudio/African/women/id04736\00083_id03713_wavtolip.mp4,C,African,1,1,0.14313422,0.85686576
+data/raw/FakeVideo-RealAudio/African/men/id01597\00005_id02316_yrrNcmZ-xmI.mp4,C,African,1,1,0.29037288,0.70962703
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09116\00026_id00430_q7jhSsGElK4_faceswap_id03379_wavtolip.mp4,D,Asian (East),1,1,0.13067502,0.86932504
+data/raw/FakeVideo-FakeAudio/African/men/id01972\00078_id00781_fvsSae9yc0A_id01597_wavtolip.mp4,D,African,1,1,0.23980398,0.76019603
+data/raw/FakeVideo-RealAudio/African/women/id00359\00053_id05980_bbg4HtuM_jo.mp4,C,African,1,1,0.4130301,0.58696985
+data/raw/FakeVideo-FakeAudio/African/women/id02586\00042_id02824_wavtolip.mp4,D,African,1,1,0.025027962,0.974972
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04222\00078_id03889_wavtolip.mp4,C,Asian (East),1,1,0.26242754,0.73757243
+data/raw/FakeVideo-FakeAudio/African/women/id04540\00078_id02824_wavtolip.mp4,D,African,1,1,0.3378122,0.6621878
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00137\00025_id07799_wavtolip.mp4,C,Asian (East),1,1,0.13164015,0.86835986
+data/raw/FakeVideo-FakeAudio/African/women/id03658\00077_id01907_wavtolip.mp4,D,African,1,1,0.12604015,0.87395984
+data/raw/FakeVideo-FakeAudio/African/men/id04727\00007_id00518_wavtolip.mp4,D,African,1,1,0.43883288,0.5611671
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04066\00013_id00566_V3Hg_HMhuwQ.mp4,C,Asian (East),1,1,0.36230525,0.6376947
+data/raw/FakeVideo-RealAudio/African/men/id01598\00044_id00475_wavtolip.mp4,C,African,1,1,0.49691853,0.50308144
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00056\00028_id07102_4gKPlwvjpsI_faceswap_id06269_wavtolip.mp4,D,Asian (East),1,1,0.12640335,0.87359667
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id02553\00043_id02365_KTHM_LvjcgY_id05383_wavtolip.mp4,D,Asian (East),1,1,0.13212839,0.86787164
+data/raw/FakeVideo-FakeAudio/African/men/id02005\00052_id01995_wavtolip.mp4,D,African,1,1,0.31883723,0.6811628
+data/raw/FakeVideo-FakeAudio/African/men/id00987\00160_id00761_QtTNFhCCgzw_id00476_wavtolip.mp4,D,African,1,1,0.0056884643,0.9943116
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01683\00052_id02365_KTHM_LvjcgY.mp4,C,Asian (East),1,1,0.19052091,0.80947906
+data/raw/FakeVideo-FakeAudio/African/men/id01972\00078_id01972_wavtolip.mp4,D,African,1,1,0.17455041,0.82544965
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06467\00010_id03028_u74oQfYf4GI_id01683_wavtolip.mp4,D,Asian (East),1,1,0.2593653,0.74063474
+data/raw/FakeVideo-RealAudio/African/women/id00577\00010_id04939_i4v2cXo9HIQ.mp4,C,African,1,1,0.20628873,0.79371125
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id02365\00028_id06269_Jm9bEizIGBE_faceswap_id04774_wavtolip.mp4,D,Asian (East),1,1,0.14860933,0.85139066
+data/raw/FakeVideo-RealAudio/African/men/id01544\00044_id01972_hBYoeQTm8ZQ.mp4,C,African,1,0,0.5242386,0.47576135
+data/raw/FakeVideo-RealAudio/African/men/id01835\00130_id00944_DiW5D62667U.mp4,C,African,1,1,0.07994068,0.9200593
+data/raw/FakeVideo-FakeAudio/African/men/id01179\00160_id02342_wavtolip.mp4,D,African,1,1,0.05409906,0.94590086
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00579\00030_id06060_wavtolip.mp4,C,Asian (East),1,1,0.11145969,0.8885403
+data/raw/FakeVideo-RealAudio/African/men/id01597\00005_id01933_wavtolip.mp4,C,African,1,1,0.26429498,0.735705
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id07901\00040_id03211_wavtolip.mp4,D,Asian (East),1,0,0.6425288,0.35747123
+data/raw/FakeVideo-FakeAudio/African/women/id00829\00271_id02586_wavtolip.mp4,D,African,1,0,0.5400457,0.45995435
+data/raw/FakeVideo-RealAudio/African/women/id04736\00083_id04055_wavtolip.mp4,C,African,1,1,0.12625578,0.87374425
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00430\00209_id03940_axeR0CLu96U.mp4,C,Asian (East),1,1,0.039078448,0.9609216
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id03889\00052_id02493_zYAm6W46Mcg_id00560_wavtolip.mp4,D,Asian (East),1,1,0.11754492,0.8824551
+data/raw/FakeVideo-FakeAudio/African/men/id01972\00078_3_id00366_wavtolip.mp4,D,African,1,1,0.19696344,0.8030366
+data/raw/FakeVideo-FakeAudio/African/men/id00173\00118_id01920_w9C_knCPD94_id01392_wavtolip.mp4,D,African,1,1,0.20344345,0.7965566
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id05332\00065_id03028_wavtolip.mp4,D,Asian (East),1,1,0.4952264,0.5047736
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id03168\03168_id03889_wavtolip.mp4,C,Asian (East),1,1,0.05904448,0.9409555
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04057\00015_id04144_wavtolip.mp4,C,Asian (East),1,1,0.20873794,0.7912621
+data/raw/FakeVideo-FakeAudio/African/women/id02838\00080_id03713_Tef7jjuQeXE_id05106_wavtolip.mp4,D,African,1,1,0.31785068,0.6821493
+data/raw/FakeVideo-FakeAudio/African/men/id01597\00005_id01171_wavtolip.mp4,D,African,1,1,0.2598314,0.7401686
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id03889\00052_id02332_wavtolip.mp4,C,Asian (East),1,1,0.17479318,0.82520676
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id07102\00052_id02365_KTHM_LvjcgY.mp4,C,Asian (East),1,1,0.22209865,0.7779014
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02561\02561_id06269_wavtolip.mp4,C,Asian (East),1,1,0.09452824,0.90547174
+data/raw/FakeVideo-FakeAudio/African/men/id01530\00002_id01835_UZbWA0QfXXA_id01036_wavtolip.mp4,D,African,1,1,0.045407593,0.95459235
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id05631\00073_id00579_wavtolip.mp4,D,Asian (East),1,1,0.3854587,0.6145413
+data/raw/FakeVideo-FakeAudio/African/men/id00166\00010_id01171_XSINMRoTb0E_id01717_wavtolip.mp4,D,African,1,1,0.31122535,0.6887746
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06269\00005_id03889_wavtolip.mp4,D,Asian (East),1,1,0.30548865,0.6945114
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09171\00092_id06225_AERbd8rJHDw_id05844_wavtolip.mp4,D,Asian (East),1,1,0.002245057,0.99775493
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06388\00005_id09175_YWe7UOnEyHU.mp4,C,Asian (East),1,1,0.00069674314,0.9993033
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id07901\00040_id06060_wavtolip.mp4,D,Asian (East),1,0,0.6497557,0.35024425
+data/raw/FakeVideo-FakeAudio/African/women/id01783\00015_id05231_wfbM5puT6eQ_id05231_wavtolip.mp4,D,African,1,1,0.03913777,0.9608623
+data/raw/FakeVideo-RealAudio/African/men/id00701\00092_id01835_UZbWA0QfXXA.mp4,C,African,1,1,0.18779588,0.8122041
+data/raw/FakeVideo-RealAudio/African/men/id00475\00099_id00478_UOK9hQZm-6k.mp4,C,African,1,0,0.5197925,0.48020747
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id09174\00015_id00582_9gvF6IohoUI.mp4,C,Asian (East),1,1,0.0012449715,0.9987551
+data/raw/FakeVideo-FakeAudio/African/women/id02824\00130_id05252_CMxIX3absYM_id02721_wavtolip.mp4,D,African,1,1,0.44103062,0.5589694
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09125\00098_id09181_ypUYBHscgD8_id06225_wavtolip.mp4,D,Asian (East),1,1,0.057889517,0.9421105
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06054\00010_id07901_wavtolip.mp4,C,Asian (East),1,1,0.049159355,0.9508406
+data/raw/FakeVideo-RealAudio/African/women/id04540\00078_id04939_wavtolip.mp4,C,African,1,1,0.34495056,0.65504944
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id01451\00099_id09171_B-JRLp6chC0_id00566_wavtolip.mp4,D,Asian (East),1,1,0.10141061,0.8985894
+data/raw/FakeVideo-FakeAudio/African/men/id01835\00130_id00761_QtTNFhCCgzw_faceswap_id00518_wavtolip.mp4,D,African,1,1,0.014933521,0.9850665
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06462\00014_id08819_wavtolip.mp4,D,Asian (East),1,1,0.007241944,0.99275804
+data/raw/FakeVideo-FakeAudio/African/men/id01392\00167_id01207_mt129WTRSII_id01691_wavtolip.mp4,D,African,1,1,0.24981703,0.7501829
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id00056\00028_id07102_4gKPlwvjpsI.mp4,C,Asian (East),1,1,0.24195236,0.75804764
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09116\00026_id02587_wavtolip.mp4,D,Asian (East),1,1,0.16765419,0.83234584
+data/raw/FakeVideo-RealAudio/African/men/id02494\00050_0.mp4,C,African,1,1,0.00031741572,0.99968266
+data/raw/FakeVideo-FakeAudio/African/women/id04540\00078_id00832_Jr4-dXRChME_id02508_wavtolip.mp4,D,African,1,1,0.2680619,0.7319381
+data/raw/FakeVideo-RealAudio/African/women/id04245\00072_id04437_2csrqaF55pk.mp4,C,African,1,1,0.4347615,0.5652385
+data/raw/FakeVideo-RealAudio/African/men/id00518\00031_id00701_wavtolip.mp4,C,African,1,1,0.28478408,0.71521586
+data/raw/FakeVideo-FakeAudio/African/men/id02296\00019_0_id02051_wavtolip.mp4,D,African,1,1,0.1832672,0.8167328
+data/raw/FakeVideo-FakeAudio/African/men/id01717\00005_id00987_wavtolip.mp4,D,African,1,1,0.1934514,0.8065486
+data/raw/FakeVideo-RealAudio/African/women/id05235\00052_id04820_wavtolip.mp4,C,African,1,1,0.46983415,0.53016585
+data/raw/FakeVideo-FakeAudio/African/women/id04736\00083_id01661_wavtolip.mp4,D,African,1,1,0.13941967,0.8605803
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id07739\00019_id04144__FJg9YswRzQ_faceswap_id06462_wavtolip.mp4,D,Asian (East),1,1,0.010811143,0.9891889
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04726\00245_id03028_u74oQfYf4GI.mp4,C,Asian (East),1,1,0.28875142,0.7112485
+data/raw/FakeVideo-FakeAudio/African/women/id03747\00273_id05231_wavtolip.mp4,D,African,1,1,0.22876826,0.7712318
+data/raw/FakeVideo-FakeAudio/African/women/id01178\00028_id04705_wavtolip.mp4,D,African,1,1,0.13560902,0.86439097
+data/raw/FakeVideo-FakeAudio/African/women/id04437\00002_id02586_dEYzYDsbAeo_id02808_wavtolip.mp4,D,African,1,1,0.10996557,0.89003444
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id02807\00032_id06462_Nn79kE76MA4_faceswap_id03211_wavtolip.mp4,D,Asian (East),1,1,0.33358085,0.66641915
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05268\00010.mp4,C,Asian (East),1,0,0.5771163,0.42288372
+data/raw/FakeVideo-FakeAudio/African/women/id00592\00017_id04055_wavtolip.mp4,D,African,1,1,0.4980408,0.5019592
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01212\00183_id04726_i72-Hb0jayI.mp4,C,Asian (East),1,1,0.4540518,0.5459482
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id00430\00209_id09116_EahYpHnFjzw_faceswap_id06225_wavtolip.mp4,D,Asian (East),1,1,0.015072114,0.9849279
+data/raw/FakeVideo-FakeAudio/African/women/id00460\00005_id01178_wavtolip.mp4,D,African,1,1,0.15938374,0.8406162
+data/raw/FakeVideo-FakeAudio/African/women/id00829\00271_id03747_wavtolip.mp4,D,African,1,0,0.5538112,0.44618878
+data/raw/FakeVideo-RealAudio/African/women/id03569\00065_id00220_WlHLlTQKj8g.mp4,C,African,1,1,0.392477,0.607523
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01204\00092_id04111_wavtolip.mp4,C,Asian (East),1,1,0.2700839,0.7299161
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id03940\00025_id00363_wavtolip.mp4,D,Asian (East),1,1,0.17163521,0.82836485
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id00560\00041_id06467_bN8jVda0Byw.mp4,C,Asian (East),1,1,0.019406006,0.98059404
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id01589\00017_id02365_KTHM_LvjcgY_id01204_wavtolip.mp4,D,Asian (East),1,1,0.42324942,0.5767506
+data/raw/FakeVideo-RealAudio/African/women/id05235\00052_id01907_LBcRkuRq0uY.mp4,C,African,1,1,0.4497092,0.5502908
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04111\00015_id06776_wavtolip.mp4,C,Asian (East),1,1,0.3497279,0.6502721
+data/raw/FakeVideo-RealAudio/African/women/id00592\00017.mp4,C,African,1,0,0.584779,0.41522098
+data/raw/FakeVideo-RealAudio/African/men/id02342\00191_id01179_RnqLJMrWELw.mp4,C,African,1,1,0.015592711,0.9844073
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06388\00005_id07799_wavtolip.mp4,C,Asian (East),1,1,0.0007416231,0.9992584
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id08299\00110_2_id01683_wavtolip.mp4,D,Asian (East),1,1,0.003185811,0.9968142
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06061\00002_id07383_G9gjJrz6L94.mp4,C,Asian (East),1,1,0.24489148,0.75510854
+data/raw/FakeVideo-FakeAudio/African/men/id00076\00109_7_id00166_wavtolip.mp4,D,African,1,1,0.14067444,0.8593256
+data/raw/FakeVideo-FakeAudio/African/men/id01933\00028_id01170_7eoTTk4xyNo_id01691_wavtolip.mp4,D,African,1,1,0.06864157,0.93135846
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06158\00015_id07383_wavtolip.mp4,C,Asian (East),1,1,0.412503,0.587497
+data/raw/FakeVideo-RealAudio/African/men/id00987\00160_id02005_wavtolip.mp4,C,African,1,1,0.065525636,0.93447435
+data/raw/FakeVideo-RealAudio/African/women/id00832\00078_id00568_wavtolip.mp4,C,African,1,1,0.18633842,0.8136616
+data/raw/FakeVideo-RealAudio/African/women/id02071\00195_id03658_8Wtu9VXKqjY.mp4,C,African,1,1,0.0469506,0.9530494
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id06535\00183_1.mp4,C,Asian (East),1,0,0.5883596,0.41164044
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00056\00028_id05332_wavtolip.mp4,D,Asian (East),1,1,0.19199866,0.8080014
+data/raw/FakeVideo-FakeAudio/African/men/id01597\00005_id00476_wavtolip.mp4,D,African,1,1,0.25224796,0.7477521
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00763\00074_id06066_9e5vgpwmruA.mp4,C,Asian (East),1,0,0.5947974,0.40520257
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00597\00019_id05743_Fjri4MXHXWY_faceswap_id00126_wavtolip.mp4,D,Asian (East),1,1,0.10419618,0.8958038
+data/raw/FakeVideo-RealAudio/African/women/id04437\00002_id04055_wavtolip.mp4,C,African,1,1,0.23641652,0.7635835
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04066\00013_id08139_wavtolip.mp4,C,Asian (East),1,1,0.39111423,0.60888577
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05479\05479_id09143_wavtolip.mp4,C,Asian (East),1,0,0.5826832,0.41731682
+data/raw/FakeVideo-RealAudio/African/women/id00592\00017_id00577_wavtolip.mp4,C,African,1,0,0.5277383,0.47226173
+data/raw/FakeVideo-RealAudio/African/women/id05980\00143_id02838_wavtolip.mp4,C,African,1,1,0.1992341,0.80076593
+data/raw/FakeVideo-RealAudio/African/women/id01907\00148_id02948_wavtolip.mp4,C,African,1,0,0.5811685,0.4188315
+data/raw/FakeVideo-FakeAudio/African/men/id00076\00109_12_id01856_wavtolip.mp4,D,African,1,1,0.034258854,0.96574116
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id02587\00020_id00566_V3Hg_HMhuwQ_faceswap_id00582_wavtolip.mp4,D,Asian (East),1,1,0.49605012,0.5039499
+data/raw/FakeVideo-FakeAudio/African/men/id00518\00031_2_id02296_wavtolip.mp4,D,African,1,1,0.14083627,0.85916364
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id02332\00055_id02553_QTahH2rc8go_id02561_wavtolip.mp4,D,Asian (East),1,1,0.21436986,0.78563017
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id08819\00052_id01281_wavtolip.mp4,C,Asian (East),1,1,0.4820521,0.5179479
+data/raw/FakeVideo-FakeAudio/African/men/id00166\00010_id00476_wavtolip.mp4,D,African,1,1,0.3667251,0.633275
+data/raw/FakeVideo-FakeAudio/African/men/id00476\00109_id00781_fvsSae9yc0A_id01036_wavtolip.mp4,D,African,1,1,0.00054184196,0.99945813
+data/raw/FakeVideo-FakeAudio/African/men/id01717\00005_id00166_wavtolip.mp4,D,African,1,1,0.17616361,0.8238363
+data/raw/FakeVideo-FakeAudio/African/women/id01661\00059_id05252_CMxIX3absYM_id00592_wavtolip.mp4,D,African,1,1,0.2334477,0.7665523
+data/raw/FakeVideo-RealAudio/African/women/id02721\00424_id02948__ZEDGNWjuFE.mp4,C,African,1,1,0.1411084,0.8588916
+data/raw/FakeVideo-RealAudio/African/women/id01532\00065_id00829_aMEvVaUBq2Y_faceswap.mp4,C,African,1,0,0.6172356,0.38276437
+data/raw/FakeVideo-FakeAudio/African/men/id01597\00005_id01392_fF-g0KFJ7lg_id01717_wavtolip.mp4,D,African,1,1,0.22138783,0.77861226
+data/raw/FakeVideo-RealAudio/African/men/id00781\00092_id01236_wavtolip.mp4,C,African,1,1,0.46529913,0.5347009
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id09116\00026_id00582_9gvF6IohoUI.mp4,C,Asian (East),1,1,0.101352744,0.8986472
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06225\00005_id00935_09fNE0b4Dlg.mp4,C,Asian (East),1,1,0.40723318,0.5927668
+data/raw/FakeVideo-FakeAudio/African/men/id01691\00045_id01779_HgyHpDEo_jk_faceswap_id00830_wavtolip.mp4,D,African,1,1,0.4205405,0.5794594
+data/raw/FakeVideo-RealAudio/African/men/id01521\00109_id00478_wavtolip.mp4,C,African,1,1,0.203194,0.796806
+data/raw/FakeVideo-FakeAudio/African/men/id01076\00005_id01637_5VjcPZm8knM_id02342_wavtolip.mp4,D,African,1,1,0.20423546,0.79576457
+data/raw/FakeVideo-FakeAudio/African/men/id01530\00002_id00076_wavtolip.mp4,D,African,1,1,0.098671764,0.9013282
+data/raw/FakeVideo-FakeAudio/African/women/id02301\00092_id04689_0YqK1ksKjLg_id02721_wavtolip.mp4,D,African,1,1,0.011158753,0.98884124
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04144\00028_id09181_wavtolip.mp4,C,Asian (East),1,1,0.32200742,0.6779926
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id05268\00010_id05332_wavtolip.mp4,D,Asian (East),1,0,0.51721084,0.48278913
+data/raw/FakeVideo-RealAudio/African/women/id05251\00033_id03656_wavtolip.mp4,C,African,1,1,0.10689604,0.89310396
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id07102\00052_id04111_wavtolip.mp4,D,Asian (East),1,1,0.2138775,0.7861225
+data/raw/FakeVideo-RealAudio/African/women/id04705\00408_id02301_wavtolip.mp4,C,African,1,1,0.034840778,0.9651593
+data/raw/FakeVideo-FakeAudio/African/women/id05231\00149_id00592_wavtolip.mp4,D,African,1,1,0.11125265,0.88874733
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09174\00015_id00363_wavtolip.mp4,D,Asian (East),1,1,0.008113299,0.99188673
+data/raw/FakeVideo-FakeAudio/African/men/id02494\00050_id01856_6Q2f3b1QNRM_id01598_wavtolip.mp4,D,African,1,1,0.010985138,0.98901486
+data/raw/FakeVideo-RealAudio/African/women/id00707\00052_id04705_ziJ9JsYr4R0.mp4,C,African,1,1,0.1421226,0.8578774
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id05844\00072_id07799_wavtolip.mp4,D,Asian (East),1,1,0.13914488,0.8608551
+data/raw/FakeVideo-FakeAudio/African/women/id02508\00083_id05980_bbg4HtuM_jo_id03656_wavtolip.mp4,D,African,1,1,0.106752865,0.8932471
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id00363\00014_id08139_wavtolip.mp4,D,Asian (East),1,1,0.1553379,0.8446621
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id04701\00017_id06462_Nn79kE76MA4_faceswap_id06443_wavtolip.mp4,D,Asian (East),1,1,0.13412428,0.86587566
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id00579\00030_id06462_Nn79kE76MA4_faceswap_id07799_wavtolip.mp4,D,Asian (East),1,1,0.026580516,0.9734194
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06427\00138_id02807_eFC0STvhou4_id06158_wavtolip.mp4,D,Asian (East),1,1,0.43439096,0.56560904
+data/raw/FakeVideo-FakeAudio/African/men/id01995\00071_id01544_uBo9585VW2A_id00830_wavtolip.mp4,D,African,1,0,0.54689,0.45310992
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id09174\00015_id07799_gO6nidmxrJU.mp4,C,Asian (East),1,1,0.007270734,0.99272925
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06427\00138_id03940_axeR0CLu96U_id07799_wavtolip.mp4,D,Asian (East),1,1,0.4565562,0.5434438
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id04414\00001_id04144__FJg9YswRzQ_id08819_wavtolip.mp4,D,Asian (East),1,1,0.32470882,0.67529124
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id08613\00074_id02332_wavtolip.mp4,D,Asian (East),1,1,0.34244847,0.6575515
+data/raw/FakeVideo-RealAudio/African/men/id00476\00109_id00781_fvsSae9yc0A_faceswap.mp4,C,African,1,1,0.00036408345,0.9996359
+data/raw/FakeVideo-FakeAudio/African/women/id04437\00002_id00832_Jr4-dXRChME_id05231_wavtolip.mp4,D,African,1,1,0.26677054,0.73322946
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id09181\00048_id06066_wavtolip.mp4,C,Asian (East),1,1,0.052923165,0.9470769
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id09116\00026_id00430_q7jhSsGElK4_faceswap.mp4,C,Asian (East),1,1,0.22720057,0.77279943
+data/raw/FakeVideo-RealAudio/African/men/id01236\00005_id01598_wavtolip.mp4,C,African,1,1,0.49427277,0.5057273
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06054\00010_id00137_wavtolip.mp4,D,Asian (East),1,1,0.056892086,0.9431079
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04111\00015_id00056_GUh0mNVw0U8.mp4,C,Asian (East),1,1,0.37789094,0.6221091
+data/raw/FakeVideo-FakeAudio/African/women/id04939\00174_id03656_wavtolip.mp4,D,African,1,1,0.36784503,0.63215494
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06054\00010_id02807_eFC0STvhou4.mp4,C,Asian (East),1,1,0.051759142,0.9482409
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00763\00074_id07739_TmuvLVNBm8o.mp4,C,Asian (East),1,0,0.57938415,0.42061585
+data/raw/FakeVideo-FakeAudio/African/women/id03656\00052_id02838_wavtolip.mp4,D,African,1,1,0.0028070263,0.997193
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06060\00219_id08139_wavtolip.mp4,D,Asian (East),1,1,0.41545117,0.58454883
+data/raw/FakeVideo-RealAudio/African/men/id01995\00071_id01544_wavtolip.mp4,C,African,1,0,0.6112585,0.38874146
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06060\00219_id00363_wavtolip.mp4,C,Asian (East),1,1,0.40761736,0.5923826
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id04687\00066_id03965_wavtolip.mp4,D,Asian (East),1,1,0.48210272,0.51789725
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00582\00006_id07901_wavtolip.mp4,C,Asian (East),1,1,0.30282772,0.6971723
+data/raw/FakeVideo-RealAudio/African/women/id01532\00065_id04736__D2k4fMhEfQ.mp4,C,African,1,0,0.6167176,0.38328248
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00935\00005_id04414_0sJN-9GIO-M.mp4,C,Asian (East),1,1,0.1822128,0.8177872
+data/raw/FakeVideo-FakeAudio/African/men/id01995\00071_id01036_AohKaMtIHxA_id02268_wavtolip.mp4,D,African,1,0,0.57270145,0.42729855
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09125\00098_id01281_wavtolip.mp4,D,Asian (East),1,1,0.04564426,0.9543558
+data/raw/FakeVideo-FakeAudio/African/men/id01856\00006_id02040_wl6EVkamZFQ_id01779_wavtolip.mp4,D,African,1,1,0.27370644,0.72629356
+data/raw/FakeVideo-RealAudio/African/women/id02586\00042_id00707_feeHCIlo6jg.mp4,C,African,1,1,0.020517625,0.97948235
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06427\00138_id03211_HK4oe6Hi91E_id05631_wavtolip.mp4,D,Asian (East),1,1,0.33550823,0.6644918
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id00137\00025_id09181_wavtolip.mp4,D,Asian (East),1,1,0.13367005,0.8663299
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id03168\03168_2_id02561_wavtolip.mp4,D,Asian (East),1,1,0.0039469446,0.9960531
+data/raw/FakeVideo-FakeAudio/African/women/id00220\00027_id02838_wavtolip.mp4,D,African,1,1,0.34181938,0.6581806
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id03940\00025_id06427_dBBAKe2EA_o_faceswap_id00763_wavtolip.mp4,D,Asian (East),1,1,0.12676528,0.87323475
+data/raw/FakeVideo-FakeAudio/African/women/id04437\00002_id04245_nQD_PRlBDyw_id03658_wavtolip.mp4,D,African,1,1,0.23579583,0.7642042
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id09053\00005_id05383_wavtolip.mp4,C,Asian (East),1,1,0.09752163,0.9024784
+data/raw/FakeVideo-FakeAudio/African/women/id02948\00298_id03747_wavtolip.mp4,D,African,1,1,0.018087614,0.9819124
+data/raw/FakeVideo-RealAudio/African/women/id01907\00148_id01532_wavtolip.mp4,C,African,1,0,0.5853847,0.4146153
+data/raw/FakeVideo-FakeAudio/African/men/id02316\00094_id00475_xQjvXRcnPvw_id00518_wavtolip.mp4,D,African,1,1,0.2630632,0.7369368
+data/raw/FakeVideo-FakeAudio/African/men/id01544\00044_id01521_wavtolip.mp4,D,African,1,0,0.5297514,0.4702486
+data/raw/FakeVideo-RealAudio/African/men/id00781\00092_id02494_lObg47hQleE.mp4,C,African,1,1,0.4569415,0.5430585
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id04701\00017_id09174_Qspzu6tyArc_id06060_wavtolip.mp4,D,Asian (East),1,1,0.29713365,0.7028663
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id01451\00099_id09171_B-JRLp6chC0_faceswap_id09174_wavtolip.mp4,D,Asian (East),1,1,0.05010232,0.94989765
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09181\00048_id06065_Rni34oVUpTA_id06060_wavtolip.mp4,D,Asian (East),1,1,0.013408791,0.9865912
+data/raw/FakeVideo-RealAudio/African/men/id02342\00191_id01170_7eoTTk4xyNo.mp4,C,African,1,1,0.0018038874,0.9981961
+data/raw/FakeVideo-RealAudio/African/women/id01532\00065_id00829_aMEvVaUBq2Y.mp4,C,African,1,0,0.60908395,0.39091605
+data/raw/FakeVideo-FakeAudio/African/men/id01920\00099_id01995_wavtolip.mp4,D,African,1,0,0.55596864,0.44403136
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id08652\00006_id04687_wavtolip.mp4,C,Asian (East),1,1,0.10337795,0.896622
+data/raw/FakeVideo-FakeAudio/African/men/id01717\00005_id02005_7_Egh9mW5y4_faceswap_id04727_wavtolip.mp4,D,African,1,1,0.11002292,0.8899771
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06594\00002_id00560_wavtolip.mp4,D,Asian (East),1,1,0.30281308,0.69718695
+data/raw/FakeVideo-FakeAudio/African/women/id02721\00424_id02948__ZEDGNWjuFE_id05235_wavtolip.mp4,D,African,1,1,0.06910752,0.93089247
+data/raw/FakeVideo-RealAudio/African/women/id03658\00077_id02721_rwNm8RKL47Y.mp4,C,African,1,1,0.10532524,0.8946748
+data/raw/FakeVideo-FakeAudio/African/women/id04540\00078_id01838_wavtolip.mp4,D,African,1,1,0.3368456,0.6631544
+data/raw/FakeVideo-RealAudio/African/men/id01856\00006_id02342_wavtolip.mp4,C,African,1,1,0.32247916,0.6775209
+data/raw/FakeVideo-FakeAudio/African/women/id01907\00148_id03747_wavtolip.mp4,D,African,1,0,0.59440005,0.40559995
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06462\00014_id08397_wavtolip.mp4,C,Asian (East),1,1,0.0074286554,0.99257135
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02332\00055_id04687_cSxCV6zdmwo.mp4,C,Asian (East),1,1,0.45282316,0.54717684
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06878\00001_id00740_wavtolip.mp4,D,Asian (East),1,1,0.394453,0.605547
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05743\00015_id08299_wavtolip.mp4,C,Asian (East),1,0,0.50972515,0.49027485
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06066\00028_id00363_XNRwEZtddRk.mp4,C,Asian (East),1,1,0.159722,0.840278
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06427\00138_id03940_axeR0CLu96U_faceswap.mp4,C,Asian (East),1,1,0.48180002,0.5182
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id05620\00005_id06388_wavtolip.mp4,C,Asian (East),1,1,0.012495728,0.9875043
+data/raw/FakeVideo-RealAudio/African/men/id01179\00160_id02005_7_Egh9mW5y4_faceswap.mp4,C,African,1,1,0.07107763,0.92892236
+data/raw/FakeVideo-FakeAudio/African/men/id01637\00002_id01920_w9C_knCPD94_id00076_wavtolip.mp4,D,African,1,1,0.20918977,0.7908103
+data/raw/FakeVideo-FakeAudio/African/women/id00707\00052_id02824_glBy_mYcXZw_id03658_wavtolip.mp4,D,African,1,1,0.034940932,0.96505904
+data/raw/FakeVideo-FakeAudio/African/women/id02617\00028_id04689_0YqK1ksKjLg_id04689_wavtolip.mp4,D,African,1,1,0.0030372925,0.9969627
+data/raw/FakeVideo-FakeAudio/African/men/id01179\00160_id02005_7_Egh9mW5y4_faceswap_id01528_wavtolip.mp4,D,African,1,1,0.012729807,0.9872702
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01683\00052_id08299_wavtolip.mp4,C,Asian (East),1,1,0.2174367,0.78256327
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06152\06152_id06269_wavtolip.mp4,D,Asian (East),1,1,0.31404525,0.68595475
+data/raw/FakeVideo-FakeAudio/African/men/id02005\00052_id00830_wavtolip.mp4,D,African,1,1,0.309703,0.690297
+data/raw/FakeVideo-FakeAudio/African/men/id01597\00005_id00391_TjJgUZaenWI_id01717_wavtolip.mp4,D,African,1,1,0.21575853,0.78424144
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06065\00160_id05631_xXRQCFAdR-0_id06443_wavtolip.mp4,D,Asian (East),1,1,0.42058417,0.5794158
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06065\00160_id03379_A32nCObAHiI.mp4,C,Asian (East),1,1,0.47456515,0.52543485
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06158\00015_id03940_axeR0CLu96U_faceswap_id02587_wavtolip.mp4,D,Asian (East),1,1,0.3845557,0.6154443
+data/raw/FakeVideo-FakeAudio/African/women/id05235\00052_id04820_wavtolip.mp4,D,African,1,1,0.4569905,0.5430095
+data/raw/FakeVideo-FakeAudio/African/men/id02005\00052_id02342_RJPBPhJB8TA_faceswap_id01207_wavtolip.mp4,D,African,1,1,0.18055971,0.81944036
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06591\00021_id09053_wavtolip.mp4,D,Asian (East),1,1,0.16302085,0.83697915
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06225\00005_id00763_wavtolip.mp4,C,Asian (East),1,1,0.35250548,0.64749455
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id08652\00006_id02561_wavtolip.mp4,D,Asian (East),1,1,0.10044476,0.89955527
+data/raw/FakeVideo-FakeAudio/African/men/id00518\00031_0_id01170_wavtolip.mp4,D,African,1,1,0.468789,0.531211
+data/raw/FakeVideo-FakeAudio/African/women/id00707\00052_id00568_wavtolip.mp4,D,African,1,1,0.10953668,0.89046335
+data/raw/FakeVideo-RealAudio/African/men/id01835\00130_id00475_wavtolip.mp4,C,African,1,1,0.0737824,0.92621756
+data/raw/FakeVideo-RealAudio/African/men/id01528\00017_id01076_wavtolip.mp4,C,African,1,1,0.36533242,0.6346676
+data/raw/FakeVideo-RealAudio/African/men/id00173\00118_id01717_JDW6p8yU13A.mp4,C,African,1,1,0.1421873,0.85781264
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06054\00010_id08402_nedfiSXfmQ0.mp4,C,Asian (East),1,1,0.020927658,0.97907233
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06462\00014_id02807_eFC0STvhou4_faceswap_id03379_wavtolip.mp4,D,Asian (East),1,1,0.0029849457,0.99701506
+data/raw/FakeVideo-FakeAudio/African/women/id04376\00181_id01661_wavtolip.mp4,D,African,1,1,0.32580325,0.6741967
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id00056\00028_id06269_wavtolip.mp4,C,Asian (East),1,1,0.20036608,0.79963386
+data/raw/FakeVideo-FakeAudio/African/women/id01661\00059_id02071_wavtolip.mp4,D,African,1,1,0.24742445,0.7525755
+data/raw/FakeVideo-RealAudio/African/women/id03569\00065_id03713_wavtolip.mp4,C,African,1,1,0.32924688,0.6707531
+data/raw/FakeVideo-FakeAudio/African/men/id01835\00130_id01036_AohKaMtIHxA_id02342_wavtolip.mp4,D,African,1,1,0.02339186,0.9766081
+data/raw/FakeVideo-FakeAudio/African/women/id03656\00052_id04374_SWltOOZmlWM_id04547_wavtolip.mp4,D,African,1,1,4.0254527e-05,0.99995977
+data/raw/FakeVideo-RealAudio/African/men/id02494\00050_id00166_PQV2ZbJBLNk.mp4,C,African,1,1,0.03627689,0.9637231
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00056\00028_id06269_Jm9bEizIGBE_id08652_wavtolip.mp4,D,Asian (East),1,1,0.24754569,0.75245434
+data/raw/FakeVideo-FakeAudio/African/women/id01907\00148_id00371_t20i0HtPwW0_id00832_wavtolip.mp4,D,African,1,0,0.51280636,0.48719364
+data/raw/FakeVideo-RealAudio/African/men/id01856\00006_id00391_TjJgUZaenWI.mp4,C,African,1,1,0.35061416,0.6493858
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id03379\00032_id00579_wavtolip.mp4,C,Asian (East),1,1,0.29920894,0.70079106
+data/raw/FakeVideo-RealAudio/African/women/id04540\00078_id03656_draVIyyqLtk.mp4,C,African,1,1,0.32408297,0.675917
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id05576\00368_id06066_9e5vgpwmruA.mp4,C,Asian (East),1,1,0.22989342,0.7701065
+data/raw/FakeVideo-FakeAudio/African/women/id01661\00059_id04055_wavtolip.mp4,D,African,1,1,0.23114176,0.7688583
+data/raw/FakeVideo-FakeAudio/African/women/id01532\00065_id01907_LBcRkuRq0uY_id00359_wavtolip.mp4,D,African,1,0,0.59587026,0.40412977
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09174\00015_id06060_wavtolip.mp4,D,Asian (East),1,1,0.008199428,0.9918006
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id08397\00167_id03379_A32nCObAHiI_id00430_wavtolip.mp4,D,Asian (East),1,1,0.18631192,0.81368804
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id05620\00005_id00935_wavtolip.mp4,C,Asian (East),1,1,0.01069733,0.98930264
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id09125\00098_id02587_wavtolip.mp4,D,Asian (East),1,1,0.02512495,0.97487503
+data/raw/FakeVideo-RealAudio/African/men/id01597\00005_3.mp4,C,African,1,1,0.23951179,0.7604882
+data/raw/FakeVideo-RealAudio/African/men/id01530\00002_id01236_7WdumGR5-JM.mp4,C,African,1,1,0.120995,0.879005
+data/raw/FakeVideo-FakeAudio/African/men/id00076\00109_10_id01179_wavtolip.mp4,D,African,1,1,0.031986,0.968014
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01683\00052_id02561_wavtolip.mp4,C,Asian (East),1,1,0.20677198,0.79322803
+data/raw/FakeVideo-FakeAudio/African/men/id01779\00010_id01691_IVtS5z8Jrrk_faceswap_id00701_wavtolip.mp4,D,African,1,1,0.34016395,0.6598361
+data/raw/FakeVideo-RealAudio/African/men/id02316\00094_id01036_AohKaMtIHxA.mp4,C,African,1,1,0.46799162,0.5320084
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id00763\00074_id06066_9e5vgpwmruA_id02587_wavtolip.mp4,D,Asian (East),1,0,0.5413265,0.45867345
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06443\00232_id06065_wavtolip.mp4,D,Asian (East),1,1,0.35344946,0.64655054
+data/raw/FakeVideo-FakeAudio/African/men/id02342\00191_id01179_RnqLJMrWELw_id01610_wavtolip.mp4,D,African,1,1,0.0051110056,0.994889
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05332\00065_id05383_wavtolip.mp4,C,Asian (East),1,0,0.5197897,0.48021024
+data/raw/FakeVideo-FakeAudio/African/men/id04727\00007_id01036_wavtolip.mp4,D,African,1,1,0.43982685,0.5601732
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id04701\00017_id08819_wavtolip.mp4,D,Asian (East),1,1,0.33185115,0.6681489
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06470\00052_id06269_Jm9bEizIGBE_faceswap_id08613_wavtolip.mp4,D,Asian (East),1,1,0.4889902,0.5110098
+data/raw/FakeVideo-RealAudio/African/men/id02296\00019_id01528_wavtolip.mp4,C,African,1,1,0.01485742,0.9851426
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id05576\00368_id06066_9e5vgpwmruA_id00935_wavtolip.mp4,D,Asian (East),1,1,0.14977506,0.850225
+data/raw/FakeVideo-RealAudio/African/women/id03656\00052_id00371_wavtolip.mp4,C,African,1,1,0.0032516252,0.9967483
+data/raw/FakeVideo-FakeAudio/African/men/id01236\00005_id01610_l8zb_iaDJJA_faceswap_id01076_wavtolip.mp4,D,African,1,1,0.42020816,0.57979184
+data/raw/FakeVideo-FakeAudio/African/men/id00944\00135_id01528_SBAS9Kcb8QY_id01972_wavtolip.mp4,D,African,1,1,0.002175989,0.997824
+data/raw/FakeVideo-FakeAudio/African/men/id00944\00135_id01995_wavtolip.mp4,D,African,1,1,0.04809793,0.9519021
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06065\00160_id00935_09fNE0b4Dlg.mp4,C,Asian (East),1,1,0.48217952,0.5178205
+data/raw/FakeVideo-RealAudio/African/women/id01661\00059_id02824_wavtolip.mp4,C,African,1,1,0.20034769,0.7996523
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id04222\00078_id04687_cSxCV6zdmwo_id05332_wavtolip.mp4,D,Asian (East),1,1,0.03554578,0.96445423
+data/raw/FakeVideo-FakeAudio/African/men/id01530\00002_id00476_wavtolip.mp4,D,African,1,1,0.096202016,0.903798
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id01215\00001_0_id06878_wavtolip.mp4,D,Asian (East),1,0,0.58655775,0.41344225
+data/raw/FakeVideo-RealAudio/African/women/id03658\00077_id04376_wavtolip.mp4,C,African,1,1,0.123719916,0.8762801
+data/raw/FakeVideo-FakeAudio/African/women/id00592\00017_id01907_LBcRkuRq0uY_id04689_wavtolip.mp4,D,African,1,1,0.4054077,0.59459233
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id00740\00015_id04222_EAw7MSynKF8.mp4,C,Asian (East),1,1,0.03186769,0.96813226
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id07739\00019_id04144__FJg9YswRzQ_faceswap.mp4,C,Asian (East),1,1,0.019195676,0.9808043
+data/raw/FakeVideo-RealAudio/African/men/id01856\00109_3.mp4,C,African,1,1,0.029438328,0.9705616
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02561\02561_id06591_wavtolip.mp4,C,Asian (East),1,1,0.089626804,0.9103732
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id02807\00032_id06462_wavtolip.mp4,C,Asian (East),1,1,0.28896603,0.711034
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05743\00015_id03168_wavtolip.mp4,C,Asian (East),1,0,0.50781894,0.49218106
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00056\00028_id06269_wavtolip.mp4,D,Asian (East),1,1,0.18582237,0.81417763
+data/raw/FakeVideo-RealAudio/African/men/id00076\00109_id01544_uBo9585VW2A.mp4,C,African,1,1,0.28462774,0.71537226
+data/raw/FakeVideo-RealAudio/African/women/id00371\00099_id03747_wQOOhZvnrq4.mp4,C,African,1,1,0.18039611,0.8196039
+data/raw/FakeVideo-RealAudio/African/women/id01178\00028_id03569_wavtolip.mp4,C,African,1,1,0.106910884,0.8930891
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id06878\00001_id08613_wavtolip.mp4,C,Asian (East),1,1,0.38230592,0.6176941
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04057\00015_id09171_B-JRLp6chC0_faceswap.mp4,C,Asian (East),1,1,0.19736414,0.8026358
+data/raw/FakeVideo-FakeAudio/African/men/id01598\00044_id02005_wavtolip.mp4,D,African,1,1,0.49997154,0.50002843
+data/raw/FakeVideo-FakeAudio/African/women/id02824\00130_id05231_wfbM5puT6eQ_id02721_wavtolip.mp4,D,African,1,1,0.4161594,0.5838406
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05268\00010_id03028_wavtolip.mp4,C,Asian (East),1,0,0.52608466,0.47391537
+data/raw/FakeVideo-FakeAudio/African/men/id01933\00028_id00166_wavtolip.mp4,D,African,1,1,0.33099964,0.6690003
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00560\00041_id06269_Jm9bEizIGBE_id06467_wavtolip.mp4,D,Asian (East),1,1,0.03290443,0.96709555
+data/raw/FakeVideo-RealAudio/African/men/id00761\00072_id01179_wavtolip.mp4,C,African,1,1,0.35961887,0.6403811
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id06591\00021_id03965_wavtolip.mp4,C,Asian (East),1,1,0.1720743,0.82792574
+data/raw/FakeVideo-RealAudio/African/women/id00592\00017_id02948_wavtolip.mp4,C,African,1,1,0.49320787,0.5067921
+data/raw/FakeVideo-FakeAudio/African/men/id01036\00010_id01521_wavtolip.mp4,D,African,1,1,0.28521174,0.71478826
+data/raw/FakeVideo-FakeAudio/African/women/id00832\00078_id00371_t20i0HtPwW0_id02617_wavtolip.mp4,D,African,1,1,0.04246654,0.9575335
+data/raw/FakeVideo-RealAudio/African/women/id04689\00005_id04374_SWltOOZmlWM.mp4,C,African,1,1,0.08469716,0.9153029
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id07739\00019_id01451_wavtolip.mp4,C,Asian (East),1,1,0.0047054477,0.9952946
+data/raw/FakeVideo-RealAudio/African/men/id00518\00031_id01933_wavtolip.mp4,C,African,1,1,0.27930477,0.72069526
+data/raw/FakeVideo-FakeAudio/African/men/id01920\00099_id01597_52WEZxe4_GE_id01076_wavtolip.mp4,D,African,1,1,0.47541845,0.5245815
+data/raw/FakeVideo-FakeAudio/African/men/id02296\00019_2_id00478_wavtolip.mp4,D,African,1,1,0.006860027,0.99314004
+data/raw/FakeVideo-FakeAudio/African/women/id04540\00078_id04820_wavtolip.mp4,D,African,1,1,0.3459039,0.6540961
+data/raw/FakeVideo-RealAudio/African/women/id00707\00052_id05106_wavtolip.mp4,C,African,1,1,0.09871701,0.90128297
+data/raw/FakeVideo-FakeAudio/African/women/id02071\00195_id01661_SdP_Monh-_4_id04547_wavtolip.mp4,D,African,1,1,0.019535992,0.980464
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id09181\00048_id06225_AERbd8rJHDw.mp4,C,Asian (East),1,1,0.06767558,0.9323244
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id05631\00073_id06065_Rni34oVUpTA_faceswap_id00430_wavtolip.mp4,D,Asian (East),1,1,0.1418922,0.8581078
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06462\00014_id03379_A32nCObAHiI.mp4,C,Asian (East),1,1,0.0021314444,0.99786854
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id01281\00040_id04414_0sJN-9GIO-M.mp4,C,Asian (East),1,1,0.017485859,0.98251414
+data/raw/FakeVideo-FakeAudio/African/men/id02268\00036_id01530_wavtolip.mp4,D,African,1,0,0.5549869,0.44501314
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06878\00001_id04774_wavtolip.mp4,D,Asian (East),1,1,0.35826883,0.64173114
+data/raw/FakeVideo-RealAudio/African/men/id00987\00160_id02342_RJPBPhJB8TA.mp4,C,African,1,1,0.010195324,0.9898047
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01215\00001_id09053_wavtolip.mp4,C,Asian (East),1,1,0.21441758,0.7855824
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04701\00017_id00582_wavtolip.mp4,C,Asian (East),1,1,0.331952,0.66804796
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id06152\06152_id00740_wavtolip.mp4,C,Asian (East),1,1,0.28501737,0.7149826
+data/raw/FakeVideo-FakeAudio/African/men/id01933\00028_id01392_wavtolip.mp4,D,African,1,1,0.32343075,0.6765693
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id00740\00015_id00560_HCZHIOhZ6XM.mp4,C,Asian (East),1,1,0.03640657,0.9635934
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06225\00005_id04701_wavtolip.mp4,D,Asian (East),1,1,0.35981795,0.640182
+data/raw/FakeVideo-FakeAudio/African/women/id01532\00065_id04736_wavtolip.mp4,D,African,1,0,0.6123723,0.38762772
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id05844\00072_id00137_wavtolip.mp4,D,Asian (East),1,1,0.14656547,0.85343456
+data/raw/FakeVideo-FakeAudio/African/men/id01528\00017_id01598_wavtolip.mp4,D,African,1,1,0.37445253,0.62554747
+data/raw/FakeVideo-RealAudio/African/men/id01036\00010_id01207_mt129WTRSII.mp4,C,African,1,1,0.24110395,0.7588961
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id08613\00074_id00126_wavtolip.mp4,C,Asian (East),1,1,0.35715562,0.6428444
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06807\00015_id05268_wavtolip.mp4,D,Asian (East),1,1,0.44031855,0.5596815
+data/raw/FakeVideo-FakeAudio/African/men/id00781\00092_id02494_lObg47hQleE_id01171_wavtolip.mp4,D,African,1,1,0.36879426,0.6312058
+data/raw/FakeVideo-RealAudio/African/men/id02051\00015_id01835_UZbWA0QfXXA.mp4,C,African,1,1,0.10811585,0.8918842
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00763\00074_id06061_wavtolip.mp4,C,Asian (East),1,0,0.57391906,0.426081
+data/raw/FakeVideo-RealAudio/African/women/id00359\00053_id03103_wavtolip.mp4,C,African,1,1,0.34995502,0.6500449
+data/raw/FakeVideo-RealAudio/African/men/id01528\00017_id01528_wavtolip.mp4,C,African,1,1,0.34252834,0.65747166
+data/raw/FakeVideo-FakeAudio/African/men/id00518\00031_0_id00166_wavtolip.mp4,D,African,1,1,0.45500025,0.5449997
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06594\00002_id01212_wavtolip.mp4,D,Asian (East),1,1,0.28314754,0.7168525
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04789\002121.mp4,C,Asian (East),1,1,0.0029711742,0.9970288
+data/raw/FakeVideo-FakeAudio/African/women/id04437\00002_id00460_wavtolip.mp4,D,African,1,1,0.18198359,0.8180164
+data/raw/FakeVideo-FakeAudio/African/men/id01521\00109_id00830_wavtolip.mp4,D,African,1,1,0.21735471,0.7826452
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id09143\00056_id00863_wavtolip.mp4,C,Asian (East),1,1,0.36770552,0.6322945
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06535\00183_id08299_wavtolip.mp4,D,Asian (East),1,1,0.24842231,0.7515777
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id04057\00015_id00137_L22Rc38U5BA_id00935_wavtolip.mp4,D,Asian (East),1,1,0.15299045,0.84700954
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id01683\00052_id04884_eq_wk7h1Gzo_id08299_wavtolip.mp4,D,Asian (East),1,1,0.17448762,0.8255124
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id08299\00110_0_id01204_wavtolip.mp4,D,Asian (East),1,0,0.54251933,0.45748067
+data/raw/FakeVideo-RealAudio/African/women/id00829\00271_0.mp4,C,African,1,1,0.020790366,0.97920966
+data/raw/FakeVideo-FakeAudio/African/women/id04245\00072_id04736_wavtolip.mp4,D,African,1,1,0.48803,0.51197
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04691\1_id09053_wavtolip.mp4,C,Asian (East),1,0,0.60219,0.39780992
+data/raw/FakeVideo-RealAudio/African/women/id00568\00384_id05252_CMxIX3absYM.mp4,C,African,1,1,0.04774786,0.95225215
+data/raw/FakeVideo-FakeAudio/African/women/id05235\00052_id03713_wavtolip.mp4,D,African,1,1,0.44868797,0.551312
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id04884\00028_id04222_EAw7MSynKF8_id04111_wavtolip.mp4,D,Asian (East),1,1,0.06270406,0.9372959
+data/raw/FakeVideo-FakeAudio/African/women/id00220\00027_id02617_wavtolip.mp4,D,African,1,1,0.34350672,0.65649325
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id01451\00099_id08397_wavtolip.mp4,C,Asian (East),1,1,0.17881633,0.8211837
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id05479\05479_id08652_wavtolip.mp4,D,Asian (East),1,0,0.57165396,0.4283461
+data/raw/FakeVideo-FakeAudio/African/men/id01597\00005_2_id01995_wavtolip.mp4,D,African,1,1,0.40395278,0.5960472
+data/raw/FakeVideo-FakeAudio/African/men/id01835\00130_id00944_DiW5D62667U_id01392_wavtolip.mp4,D,African,1,1,0.025958313,0.9740417
+data/raw/FakeVideo-FakeAudio/African/women/id04540\00078_id02824_glBy_mYcXZw_id00829_wavtolip.mp4,D,African,1,1,0.2330072,0.76699275
+data/raw/FakeVideo-FakeAudio/African/men/id01528\00017_id01207_mt129WTRSII_id01207_wavtolip.mp4,D,African,1,1,0.27567452,0.7243254
+data/raw/FakeVideo-RealAudio/African/men/id01920\00099_id01179_wavtolip.mp4,C,African,1,0,0.56584454,0.43415546
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id08819\00052_id06060___Bf93SjJP0_id05631_wavtolip.mp4,D,Asian (East),1,1,0.4475683,0.5524317
+data/raw/FakeVideo-RealAudio/African/women/id02617\00028.mp4,C,African,1,1,0.018921541,0.9810785
+data/raw/FakeVideo-FakeAudio/African/men/id01179\00160_id01691_wavtolip.mp4,D,African,1,1,0.07063502,0.929365
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id03168\03168_id02493_wavtolip.mp4,C,Asian (East),1,1,0.058401484,0.94159853
+data/raw/FakeVideo-FakeAudio/African/men/id02342\00191_id01521_wavtolip.mp4,D,African,1,1,0.007999973,0.99200004
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06467\00010_id04111_Fg4CZ7ZzAGU_id01204_wavtolip.mp4,D,Asian (East),1,1,0.1836766,0.8163234
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id06807\00015_id00560_wavtolip.mp4,C,Asian (East),1,1,0.43875122,0.5612488
+data/raw/FakeVideo-RealAudio/African/women/id00359\00053_id02508_wavtolip.mp4,C,African,1,1,0.3485815,0.6514185
+data/raw/FakeVideo-RealAudio/African/women/id04374\00032_id04374_wavtolip.mp4,C,African,1,0,0.6134279,0.38657212
+data/raw/FakeVideo-RealAudio/African/men/id02316\00094_id01236_wavtolip.mp4,C,African,1,1,0.47690344,0.52309656
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id05743\00015_id05743_wavtolip.mp4,D,Asian (East),1,1,0.40083998,0.59916
+data/raw/FakeVideo-FakeAudio/African/women/id04376\00181_id02508_wavtolip.mp4,D,African,1,1,0.30940056,0.69059944
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id05268\00010_id00126_wavtolip.mp4,D,Asian (East),1,0,0.527039,0.472961
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06388\00005_id06065_wavtolip.mp4,D,Asian (East),1,1,0.0007603884,0.9992396
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06427\00138_id06158_wavtolip.mp4,C,Asian (East),1,1,0.48907185,0.51092815
+data/raw/FakeVideo-FakeAudio/African/women/id01532\00065_id00220_wavtolip.mp4,D,African,1,0,0.6108494,0.38915068
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id02332\00055_id06467_wavtolip.mp4,D,Asian (East),1,1,0.37238622,0.6276138
+data/raw/FakeVideo-RealAudio/African/women/id02721\00424_id05231_wfbM5puT6eQ.mp4,C,African,1,1,0.17636544,0.8236345
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06061\00002_id00363_wavtolip.mp4,D,Asian (East),1,1,0.10277068,0.8972293
+data/raw/FakeVideo-RealAudio/African/women/id00371\00099_id02071_wavtolip.mp4,C,African,1,1,0.20778742,0.7922126
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id02553\00043_2_id06152_wavtolip.mp4,D,Asian (East),1,1,0.22979915,0.77020085
+data/raw/FakeVideo-RealAudio/African/women/id00220\00027_id04820_wavtolip.mp4,C,African,1,1,0.35760143,0.6423986
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06065\00160_id08397_wavtolip.mp4,C,Asian (East),1,1,0.47833595,0.521664
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01212\00183_id06470_XoAiqCrOlyk.mp4,C,Asian (East),1,1,0.37337798,0.626622
+data/raw/FakeVideo-RealAudio/African/men/id01779\00010_id00701_lW6uzLIOwd0.mp4,C,African,1,1,0.31058657,0.6894134
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id06807\00015_id08652_wavtolip.mp4,C,Asian (East),1,1,0.42551172,0.5744883
+data/raw/FakeVideo-FakeAudio/African/women/id04376\00181_id04437_2csrqaF55pk_faceswap_id01838_wavtolip.mp4,D,African,1,1,0.13623267,0.8637674
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00056\00028_id07102_4gKPlwvjpsI_faceswap_id00740_wavtolip.mp4,D,Asian (East),1,1,0.13575704,0.864243
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id03889\00052_id00740_wavtolip.mp4,D,Asian (East),1,1,0.18776456,0.8122355
+data/raw/FakeVideo-RealAudio/African/women/id03747\00273_id01661_wavtolip.mp4,C,African,1,1,0.23921409,0.76078594
+data/raw/FakeVideo-FakeAudio/African/women/id00568\00384_id05252_CMxIX3absYM_faceswap_id03747_wavtolip.mp4,D,African,1,1,0.019226637,0.9807733
+data/raw/FakeVideo-RealAudio/African/women/id02071\00195_id00568_wavtolip.mp4,C,African,1,1,0.061459973,0.93854004
+data/raw/FakeVideo-FakeAudio/African/women/id02838\00080_id01532_wavtolip.mp4,D,African,1,1,0.41374305,0.586257
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00363\00014_id06427_wavtolip.mp4,C,Asian (East),1,1,0.12896922,0.8710308
+data/raw/FakeVideo-FakeAudio/African/women/id02721\00424_id03658_8Wtu9VXKqjY_faceswap_id04820_wavtolip.mp4,D,African,1,1,0.06361486,0.93638515
+data/raw/FakeVideo-RealAudio/African/men/id01610\00090_id00166_wavtolip.mp4,C,African,1,1,0.08064505,0.919355
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06152\06152_id04687_wavtolip.mp4,D,Asian (East),1,1,0.3149795,0.68502057
+data/raw/FakeVideo-FakeAudio/African/men/id01597\00005_3_id01920_wavtolip.mp4,D,African,1,1,0.14112534,0.8588746
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id01281\00040_id09181_ypUYBHscgD8_faceswap_id04144_wavtolip.mp4,D,Asian (East),1,1,0.020347854,0.9796521
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02332\00055_id04789_wavtolip.mp4,C,Asian (East),1,1,0.37332198,0.626678
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id07102\00052_id00126_wavtolip.mp4,D,Asian (East),1,1,0.22124685,0.7787531
+data/raw/FakeVideo-RealAudio/African/men/id01544\00044_id01637_wavtolip.mp4,C,African,1,0,0.5295721,0.47042787
+data/raw/FakeVideo-FakeAudio/African/women/id05251\00033_id02824_wavtolip.mp4,D,African,1,1,0.106226966,0.89377296
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id06152\06152_id08613_wavtolip.mp4,D,Asian (East),1,1,0.28917974,0.71082026
+data/raw/FakeVideo-RealAudio/African/men/id02268\00036_id02296_IAgOrCuY8vU.mp4,C,African,1,0,0.5638772,0.43612278
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02553\00043_id04726_wavtolip.mp4,C,Asian (East),1,1,0.2041087,0.7958913
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id00935\00005_id04414_0sJN-9GIO-M_faceswap_id03379_wavtolip.mp4,D,Asian (East),1,1,0.047453985,0.952546
+data/raw/FakeVideo-RealAudio/African/men/id00475\00099_id00761_wavtolip.mp4,C,African,1,0,0.51812565,0.4818744
+data/raw/FakeVideo-FakeAudio/African/women/id00707\00052_id04820_wavtolip.mp4,D,African,1,1,0.1079703,0.8920297
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00560\00041_id00740_wavtolip.mp4,D,Asian (East),1,1,0.013035047,0.986965
+data/raw/FakeVideo-RealAudio/African/women/id03569\00065_id00371_t20i0HtPwW0.mp4,C,African,1,1,0.37138677,0.62861323
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id03168\03168_id00126_wavtolip.mp4,D,Asian (East),1,1,0.06435265,0.93564737
+data/raw/FakeVideo-RealAudio/African/women/id03569\00065_id02948__ZEDGNWjuFE.mp4,C,African,1,1,0.34976897,0.650231
+data/raw/FakeVideo-FakeAudio/African/women/id01532\00065_id00568_gakhcJXnJZ8_id03747_wavtolip.mp4,D,African,1,0,0.58018446,0.41981548
+data/raw/FakeVideo-FakeAudio/African/women/id05106\00078_id04820_64ybrA1atlM_faceswap_id01661_wavtolip.mp4,D,African,1,1,0.27193427,0.7280657
+data/raw/FakeVideo-FakeAudio/African/men/id00478\00206_id01179_wavtolip.mp4,D,African,1,1,0.48276663,0.5172334
+data/raw/FakeVideo-FakeAudio/African/men/id00166\00010_id02316_yrrNcmZ-xmI_id00475_wavtolip.mp4,D,African,1,1,0.29842538,0.70157456
+data/raw/FakeVideo-RealAudio/African/women/id03569\00065_id04689_wavtolip.mp4,C,African,1,1,0.3230638,0.6769362
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id04726\00245_id05743_Fjri4MXHXWY_id04222_wavtolip.mp4,D,Asian (East),1,1,0.20510915,0.7948909
+data/raw/FakeVideo-RealAudio/African/men/id02494\00050_id01171_wavtolip.mp4,C,African,1,1,0.03427378,0.96572626
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id04066\00013_id00566_V3Hg_HMhuwQ_faceswap_id06065_wavtolip.mp4,D,Asian (East),1,1,0.19788186,0.8021181
+data/raw/FakeVideo-RealAudio/African/men/id01856\00006_id01933_wavtolip.mp4,C,African,1,1,0.33598995,0.6640101
+data/raw/FakeVideo-FakeAudio/African/men/id00944\00135_id01637_5VjcPZm8knM_id01528_wavtolip.mp4,D,African,1,1,0.0072821365,0.99271786
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id09053\00005_id07102_4gKPlwvjpsI.mp4,C,Asian (East),1,1,0.078793995,0.921206
+data/raw/FakeVideo-RealAudio/African/men/id02342\00191_id04727_AAnyugIAXao.mp4,C,African,1,1,0.005579672,0.9944203
+data/raw/FakeVideo-FakeAudio/African/men/id00518\00031_0_id00391_wavtolip.mp4,D,African,1,1,0.4546494,0.5453506
+data/raw/FakeVideo-RealAudio/African/women/id01178\00028_id03713_wavtolip.mp4,C,African,1,1,0.10393934,0.89606065
+data/raw/FakeVideo-FakeAudio/African/women/id00829\00271_id00371_wavtolip.mp4,D,African,1,0,0.5248349,0.47516513
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id02561\02561_0_id02561_wavtolip.mp4,D,Asian (East),1,0,0.5667941,0.4332059
+data/raw/FakeVideo-RealAudio/African/men/id01717\00005_id02005_7_Egh9mW5y4_faceswap.mp4,C,African,1,1,0.17177263,0.82822734
+data/raw/FakeVideo-RealAudio/African/men/id01528\00017_id01920_wavtolip.mp4,C,African,1,1,0.33959693,0.6604031
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id08819\00052_id09175_wavtolip.mp4,C,Asian (East),1,1,0.47978806,0.52021194
+data/raw/FakeVideo-RealAudio/African/women/id02721\00424_id01838_wavtolip.mp4,C,African,1,1,0.11320855,0.88679147
+data/raw/FakeVideo-FakeAudio/African/women/id05251\00033_id04376_wavtolip.mp4,D,African,1,1,0.113480985,0.886519
+data/raw/FakeVideo-FakeAudio/African/men/id01933\00028_id01236_wavtolip.mp4,D,African,1,1,0.3299645,0.6700355
+data/raw/FakeVideo-FakeAudio/African/men/id01236\00005_id01691_IVtS5z8Jrrk_id01856_wavtolip.mp4,D,African,1,1,0.400552,0.59944797
+data/raw/FakeVideo-FakeAudio/African/women/id04820\00015_id04055_wavtolip.mp4,D,African,1,1,0.10441339,0.8955866
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id06462\00014_id00935_09fNE0b4Dlg_id06462_wavtolip.mp4,D,Asian (East),1,1,0.0017876326,0.9982124
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04691\1_2.mp4,C,Asian (East),1,1,0.013946952,0.98605305
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00126\00173_id04687_wavtolip.mp4,D,Asian (East),1,1,0.27014342,0.7298566
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00126\00173_id01212_ZuKSE0WIlpM_id08613_wavtolip.mp4,D,Asian (East),1,1,0.27720657,0.72279346
+data/raw/FakeVideo-RealAudio/African/women/id02071\00195_id02617_4EZjRXC4fLk.mp4,C,African,1,1,0.067209184,0.9327909
+data/raw/FakeVideo-RealAudio/African/men/id01717\00005_id01171_wavtolip.mp4,C,African,1,1,0.17953211,0.8204679
+data/raw/FakeVideo-FakeAudio/African/women/id01838\00126_id03747_wavtolip.mp4,D,African,1,0,0.6211728,0.37882718
+data/raw/FakeVideo-FakeAudio/African/men/id02040\00476_id00391_TjJgUZaenWI_id00944_wavtolip.mp4,D,African,1,1,0.28122336,0.71877664
+data/raw/FakeVideo-RealAudio/African/men/id00173\00118_id02342_wavtolip.mp4,C,African,1,1,0.23686022,0.76313984
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02553\00043_id09143_wavtolip.mp4,C,Asian (East),1,1,0.22308128,0.7769187
+data/raw/FakeVideo-RealAudio/African/women/id02508\00083_id05980_wavtolip.mp4,C,African,1,1,0.19749604,0.80250394
+data/raw/FakeVideo-RealAudio/African/women/id01783\00015_id04705_wavtolip.mp4,C,African,1,1,0.14897913,0.8510208
+data/raw/FakeVideo-RealAudio/African/men/id01920\00099_id01392_wavtolip.mp4,C,African,1,0,0.56469727,0.43530273
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id01212\00183_id01212_wavtolip.mp4,C,Asian (East),1,1,0.38960746,0.6103926
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05479\05479_id06807_wavtolip.mp4,C,Asian (East),1,0,0.56410784,0.4358922
+data/raw/FakeVideo-RealAudio/African/women/id04245\00072_id05980_wavtolip.mp4,C,African,1,1,0.47910085,0.5208992
+data/raw/FakeVideo-RealAudio/African/women/id04055\00001_id01178_6XpgYMiKxhc.mp4,C,African,1,0,0.71288615,0.28711385
+data/raw/FakeVideo-RealAudio/African/women/id00577\00010_id04939_wavtolip.mp4,C,African,1,1,0.10315938,0.89684063
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id00126\00173_id04884_eq_wk7h1Gzo_faceswap_id05743_wavtolip.mp4,D,Asian (East),1,1,0.25537896,0.74462104
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05383\00015.mp4,C,Asian (East),1,0,0.5956201,0.4043799
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id03940\00025_id09116_EahYpHnFjzw.mp4,C,Asian (East),1,1,0.15613894,0.84386104
+data/raw/FakeVideo-RealAudio/African/men/id01995\00071_id01036_AohKaMtIHxA.mp4,C,African,1,0,0.6125719,0.3874281
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id05332\00065_id02332_wavtolip.mp4,C,Asian (East),1,1,0.49517876,0.5048212
+data/raw/FakeVideo-RealAudio/African/women/id00832\00078_id04055_0qrzF4HLXHY.mp4,C,African,1,1,0.13930683,0.8606932
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id08613\00074_id00126_wavtolip.mp4,D,Asian (East),1,1,0.3523968,0.6476032
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id00579\00030_id00582_9gvF6IohoUI.mp4,C,Asian (East),1,1,0.04695156,0.95304847
+data/raw/FakeVideo-FakeAudio/African/women/id03658\00077_id05231_wavtolip.mp4,D,African,1,1,0.13874134,0.8612586
+data/raw/FakeVideo-RealAudio/African/women/id02071\00195_id05106_wavtolip.mp4,C,African,1,1,0.056134515,0.94386554
+data/raw/FakeVideo-RealAudio/African/men/id00944\00135_id01528_SBAS9Kcb8QY_faceswap.mp4,C,African,1,1,0.04646679,0.95353323
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04701\00017_id04414_0sJN-9GIO-M.mp4,C,Asian (East),1,1,0.36955768,0.6304423
+data/raw/FakeVideo-RealAudio/African/men/id01933\00028_id01452_4MqeoSxSy3w.mp4,C,African,1,1,0.28080407,0.71919596
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02553\00043_id06470_XoAiqCrOlyk.mp4,C,Asian (East),1,1,0.09053084,0.9094691
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id07039\00105_id06225_wavtolip.mp4,D,Asian (East),1,1,0.3239773,0.67602265
+data/raw/FakeVideo-FakeAudio/African/women/id00460\00005_id00460_wavtolip.mp4,D,African,1,1,0.15623306,0.8437669
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04691\1_1.mp4,C,Asian (East),1,1,0.04020329,0.9597967
+data/raw/FakeVideo-FakeAudio/African/women/id04437\00002_id02824_wavtolip.mp4,D,African,1,1,0.19471294,0.80528706
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id02332\00055_id04726_wavtolip.mp4,C,Asian (East),1,1,0.3730231,0.6269769
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id04691\1_2_id06269_wavtolip.mp4,D,Asian (East),1,1,0.001832302,0.9981677
+data/raw/FakeVideo-FakeAudio/African/men/id01779\00010_id01637_5VjcPZm8knM_id01972_wavtolip.mp4,D,African,1,1,0.14498681,0.85501325
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id04066\00013_id02587_KzwJPH5_8j0.mp4,C,Asian (East),1,1,0.34253109,0.6574689
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id05844\00072_id00935_wavtolip.mp4,D,Asian (East),1,1,0.15210699,0.84789306
+data/raw/FakeVideo-FakeAudio/African/men/id01920\00099_id01076_9bqxgm5fT58_id01597_wavtolip.mp4,D,African,1,1,0.48194593,0.5180541
+data/raw/FakeVideo-RealAudio/African/men/id01528\00017_id01207_mt129WTRSII.mp4,C,African,1,1,0.40884838,0.5911516
+data/raw/FakeVideo-FakeAudio/Asian (East)/men/id01204\00092_id09143_rnD7HryoyLY_faceswap_id00863_wavtolip.mp4,D,Asian (East),1,1,0.19682112,0.8031789
+data/raw/FakeVideo-FakeAudio/African/men/id00701\00092_id02316_wavtolip.mp4,D,African,1,1,0.118926734,0.8810733
+data/raw/FakeVideo-FakeAudio/African/women/id02617\00028_id00592_wavtolip.mp4,D,African,1,1,0.005903596,0.99409646
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06060\00219_id09174_wavtolip.mp4,C,Asian (East),1,1,0.40935367,0.5906463
+data/raw/FakeVideo-RealAudio/Asian (East)/women/id06060\00219_id00935_09fNE0b4Dlg.mp4,C,Asian (East),1,1,0.36803433,0.63196564
+data/raw/FakeVideo-FakeAudio/African/women/id03656\00052_id00220_wavtolip.mp4,D,African,1,1,0.0032719932,0.99672794
+data/raw/FakeVideo-FakeAudio/Asian (East)/women/id00579\00030_id05576_wavtolip.mp4,D,Asian (East),1,1,0.12618484,0.8738152
+data/raw/FakeVideo-RealAudio/Asian (East)/men/id04884\00028_id03028_wavtolip.mp4,C,Asian (East),1,1,0.20951806,0.7904819

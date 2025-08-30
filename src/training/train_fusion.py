@@ -13,9 +13,9 @@ from tqdm import tqdm
 METADATA = "data/raw/meta_data.csv"
 MODEL_OUT = "models/fusion_model/fusion_model.pth"
 
-VISUAL_MODEL_PATH = "models/visual_model.pth"
-AUDIO_MODEL_PATH = "models/audio_model.pth"
-SYNC_MODEL_PATH  = "models/sync_model.pth"
+VISUAL_MODEL_PATH = "models/visual_model/visual_model.pth"
+AUDIO_MODEL_PATH = "models/audio_model/audio_model.pth"
+SYNC_MODEL_PATH  = "models/sync_model/sync_model.pth"
 
 BATCH_SIZE = 16
 EPOCHS = 2
@@ -30,13 +30,16 @@ class FusionDataset(Dataset):
     Loads outputs of unimodal models for each video
     (or can use extracted features directly)
     """
-    def __init__(self, metadata_csv):
+    def __init__(self, metadata_csv, feature_dir):
         self.df = pd.read_csv(metadata_csv)
+        self.feature_dir = feature_dir
         self.samples = []
+        
+        filtered_df = self.df[self.df['race'].isin(["Asian (East)", "Asian (South)"])]
 
-        for idx, row in self.df.iterrows():
-            video_id = row['filename'].split('.')[0]
-            label = 0 if row['category']=='A' else 1
+        for idx, row in filtered_df.iterrows():
+            video_id = os.path.splitext(row['path'])[0]
+            label = 1 if row['category'] in ['C', 'D'] else 0
             # For simplicity, assume features/predictions saved as npy
             visual_feat_path = f"data/processed/fusion_features/visual_{video_id}.npy"
             audio_feat_path  = f"data/processed/fusion_features/audio_{video_id}.npy"

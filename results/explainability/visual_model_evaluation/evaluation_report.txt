@@ -2,24 +2,24 @@ Visual Model Evaluation Report
 ========================================
 
 Total Samples: 900
-Accuracy: 0.6067
-AUC Score: 0.6588
+Accuracy: 0.6167
+AUC Score: 0.6594
 
 Classification Report:
 --------------------
 Real:
-  Precision: 0.6438
-  Recall: 0.2575
-  F1-score: 0.3679
+  Precision: 0.6396
+  Recall: 0.3150
+  F1-score: 0.4221
   Support: 400.0
 
 Fake:
-  Precision: 0.5986
-  Recall: 0.8860
-  F1-score: 0.7145
+  Precision: 0.6102
+  Recall: 0.8580
+  F1-score: 0.7132
   Support: 500.0
 
 Macro avg:
-  Precision: 0.6212
-  Recall: 0.5717
-  F1-score: 0.5412
+  Precision: 0.6249
+  Recall: 0.5865
+  F1-score: 0.5677

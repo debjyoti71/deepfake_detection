@@ -10,16 +10,16 @@ from tqdm import tqdm
 # ----------------------------
 # Paths
 # ----------------------------
-METADATA = "data/metadata.csv"
-MODEL_OUT = "models/fusion_model.pth"
+METADATA = "data/raw/meta_data.csv"
+MODEL_OUT = "models/fusion_model/fusion_model.pth"
 
 VISUAL_MODEL_PATH = "models/visual_model.pth"
 AUDIO_MODEL_PATH = "models/audio_model.pth"
 SYNC_MODEL_PATH  = "models/sync_model.pth"
 
 BATCH_SIZE = 16
-EPOCHS = 10
-LR = 1e-4
+EPOCHS = 2
+LR = 1e-3
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ----------------------------

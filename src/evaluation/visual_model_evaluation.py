@@ -173,7 +173,7 @@ def evaluate_videos():
     print(f">>> Total metadata rows: {len(metadata_df)}")
 
     # Filter by race and sample
-    filtered_df = metadata_df[metadata_df['race'].isin(["African", "Asian (East)"])]
+    filtered_df = metadata_df[metadata_df['race'].isin(["Asian (East)","Asian (South)"])]
     print(f">>> Filtered to {len(filtered_df)} rows with race in ['African', 'Asian (East)']")
 
     real_df = filtered_df[filtered_df['category'].isin(['A', 'B'])]

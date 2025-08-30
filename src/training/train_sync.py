@@ -5,7 +5,6 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import pickle
 from PIL import Image
-import numpy as np
 from torchvision import transforms
 from tqdm import tqdm
 
@@ -13,10 +12,10 @@ from tqdm import tqdm
 # Paths
 # ----------------------------
 SYNC_DIR = "data/processed/sync"
-MODEL_OUT = "models/sync_model.pth"
+MODEL_OUT = "models/sync_model/sync_model.pth"
 BATCH_SIZE = 8
-EPOCHS = 10
-LR = 1e-4
+EPOCHS = 2
+LR = 1e-3
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ----------------------------
@@ -63,10 +62,33 @@ transform = transforms.Compose([
 ])
 
 # ----------------------------
-# Dataloader
+# Custom collate_fn to pad variable length frames
 # ----------------------------
-dataset = SyncDataset(SYNC_DIR, transform=transform)
-dataloader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4)
+def pad_collate(batch):
+    """
+    batch: list of tuples (frames, audio, label)
+    frames: [T, 3, H, W], variable T per sample
+    """
+    max_frames = max(item[0].size(0) for item in batch)
+
+    frames_padded = []
+    audios = []
+    labels = []
+
+    for frames, audio, label in batch:
+        T = frames.size(0)
+        if T < max_frames:
+            pad_tensor = torch.zeros((max_frames - T, *frames.shape[1:]), dtype=frames.dtype)
+            frames = torch.cat([frames, pad_tensor], dim=0)
+        frames_padded.append(frames)
+        audios.append(audio)
+        labels.append(label)
+
+    frames_batch = torch.stack(frames_padded, dim=0)  # [B, T_max, 3, 224, 224]
+    audios_batch = torch.stack(audios, dim=0)         # [B, 1, n_mels, T_audio]
+    labels_batch = torch.tensor(labels, dtype=torch.long)
+
+    return frames_batch, audios_batch, labels_batch
 
 # ----------------------------
 # Model
@@ -96,51 +118,62 @@ class SyncNet(nn.Module):
         self.fc = nn.Linear(32+32, 2)  # 2 classes: synced / mismatched
 
     def forward(self, frames, audio):
-        # Take mean over temporal dimension
-        frames = torch.mean(frames, dim=0)  # [3,H,W]
-        frames = frames.unsqueeze(0)  # add batch dim
-        f_feat = self.cnn(frames)
-        f_feat = f_feat.view(f_feat.size(0), -1)
+        """
+        frames: [B, T, 3, H, W]
+        audio:  [B, 1, n_mels, T_audio]
+        """
+        # Mean over temporal dimension (frames)
+        frames = torch.mean(frames, dim=1)  # [B, 3, H, W]
+        f_feat = self.cnn(frames)            # [B, 32, 1, 1]
+        f_feat = f_feat.view(f_feat.size(0), -1)  # [B, 32]
 
-        a_feat = self.audio_cnn(audio)
-        a_feat = a_feat.view(a_feat.size(0), -1)
+        a_feat = self.audio_cnn(audio)      # [B, 32, 1, 1]
+        a_feat = a_feat.view(a_feat.size(0), -1)  # [B, 32]
 
-        x = torch.cat([f_feat, a_feat], dim=1)
-        out = self.fc(x)
+        x = torch.cat([f_feat, a_feat], dim=1)    # [B, 64]
+        out = self.fc(x)                          # [B, 2]
         return out
 
-model = SyncNet().to(DEVICE)
-criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=LR)
+if __name__ == '__main__':
+    # ----------------------------
+    # Dataloader
+    # ----------------------------
+    dataset = SyncDataset(SYNC_DIR, transform=transform)
+    dataloader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4, collate_fn=pad_collate)
 
-# ----------------------------
-# Training Loop
-# ----------------------------
-for epoch in range(EPOCHS):
-    model.train()
-    running_loss = 0.0
-    correct = 0
-    total = 0
+    model = SyncNet().to(DEVICE)
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(), lr=LR)
 
-    for frames, audio, labels in tqdm(dataloader):
-        frames, audio, labels = frames.to(DEVICE), audio.to(DEVICE), labels.to(DEVICE)
-        optimizer.zero_grad()
-        outputs = model(frames, audio)
-        loss = criterion(outputs, labels)
-        loss.backward()
-        optimizer.step()
+    # ----------------------------
+    # Training Loop
+    # ----------------------------
+    for epoch in range(EPOCHS):
+        model.train()
+        running_loss = 0.0
+        correct = 0
+        total = 0
 
-        running_loss += loss.item() * frames.size(0)
-        _, predicted = torch.max(outputs,1)
-        total += labels.size(0)
-        correct += (predicted==labels).sum().item()
+        for frames, audio, labels in tqdm(dataloader):
+            frames, audio, labels = frames.to(DEVICE), audio.to(DEVICE), labels.to(DEVICE)
+            optimizer.zero_grad()
+            outputs = model(frames, audio)
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
 
-    epoch_loss = running_loss / len(dataset)
-    epoch_acc = correct / total
-    print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {epoch_loss:.4f} - Acc: {epoch_acc:.4f}")
+            running_loss += loss.item() * frames.size(0)
+            _, predicted = torch.max(outputs, 1)
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
 
-# ----------------------------
-# Save Model
-# ----------------------------
-torch.save(model.state_dict(), MODEL_OUT)
-print(f"✅ Saved sync model at {MODEL_OUT}")
+        epoch_loss = running_loss / len(dataset)
+        epoch_acc = correct / total
+        print(f"Epoch {epoch + 1}/{EPOCHS} - Loss: {epoch_loss:.4f} - Acc: {epoch_acc:.4f}")
+
+    # ----------------------------
+    # Save Model
+    # ----------------------------
+    os.makedirs(os.path.dirname(MODEL_OUT), exist_ok=True)
+    torch.save(model.state_dict(), MODEL_OUT)
+    print(f"✅ Saved sync model at {MODEL_OUT}")

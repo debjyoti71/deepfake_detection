@@ -1,85 +1,60 @@
-from graphviz import Digraph
+import os
+import torch
+import torch.nn as nn
+from torchvision import models, transforms
+from PIL import Image
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix, classification_report, roc_curve, auc, accuracy_score
+from tqdm import tqdm
+import random
 
-# Create a flowchart diagram
-dot = Digraph("AidVerify_Flow", format="png")
-dot.attr(rankdir="TB", size="10")
 
-# Styles for different shapes
-process = {"shape": "rectangle", "style": "rounded,filled", "fillcolor": "#E6F2FF"}
-decision = {"shape": "diamond", "style": "filled", "fillcolor": "#FFF2CC"}
-data_store = {"shape": "parallelogram", "style": "filled", "fillcolor": "#E2F7E1"}
-terminator = {"shape": "oval", "style": "filled", "fillcolor": "#FFD6D6"}
+pred_data_dir = "data/processed/raw"
+META_DATA_PATH = "data/raw/meta_data.csv"
+PREDICTIONS_DIR = "results/explainability/visual_model_evaluation"
+os.makedirs(PREDICTIONS_DIR, exist_ok=True)
+VISUAL_MODEL_PATH = "models/visual_model.pth/visual_model.pth"
 
-# Nodes
-dot.node("start", "Start", **terminator)
 
-# Donor workflow
-dot.node("login_donor", "Login / Signup (Donor)", **process)
-dot.node("view_campaigns", "View Active Campaigns", **process)
-dot.node("donate_decision", "Donate to a Specific NGO?", **decision)
-dot.node("choose_campaign", "Select Campaign", **process)
-dot.node("smart_donate", "Smart Donation (ML)", **process)
-dot.node("payment", "Make Payment", **process)
-dot.node("donation_data", "Donation Data (Blockchain + MongoDB)", **data_store)
-dot.node("upload_ss", "Upload Payment Screenshot", **process)
-dot.node("donor_done", "Donation Complete", **terminator)
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# NGO workflow
-dot.node("login_ngo", "Login / Signup (NGO)", **process)
-dot.node("submit_campaign", "Submit Campaign Details", **process)
-dot.node("docs", "Upload NGO Documents", **process)
-dot.node("admin_review", "Admin Review", **process)
-dot.node("review_decision", "Approved?", **decision)
-dot.node("ngo_dashboard", "NGO Dashboard", **process)
-dot.node("bills", "Upload Bills/Invoices", **process)
-dot.node("ngo_data", "NGO Campaign Data (Blockchain)", **data_store)
+class VisualModel(nn.Module):
+    def __init__(self, num_classes=2):
+        super(VisualModel, self).__init__()
+        self.backbone = models.resnet50(pretrained=False)
+        self.backbone.fc = nn.Linear(self.backbone.fc.in_features, num_classes)
+    
+    def forward(self, x):
+        return self.backbone(x)
 
-# Field Agent workflow
-dot.node("agent_login", "Field Agent Login (Invite)", **process)
-dot.node("agent_dashboard", "Agent Dashboard", **process)
-dot.node("start_distribution", "Start Distribution", **process)
-dot.node("verify_id", "Verify Beneficiary ID + Face", **process)
-dot.node("dup_decision", "Already Served?", **decision)
-dot.node("record_beneficiary", "Record Beneficiary Data", **process)
-dot.node("aid_entry", "Input Distributed Aid", **process)
-dot.node("agent_data", "Distribution Data (Blockchain)", **data_store)
+def load_model():
+    model = VisualModel()
+    if os.path.exists(VISUAL_MODEL_PATH):
+        model.load_state_dict(torch.load(VISUAL_MODEL_PATH, map_location=DEVICE))
+        print(f"Model loaded from {VISUAL_MODEL_PATH}")
+    else:
+        print(f"Model not found at {VISUAL_MODEL_PATH}")
 
-# Connections
-dot.edges([("start", "login_donor"), ("start", "login_ngo")])
 
-# Donor flow
-dot.edge("login_donor", "view_campaigns")
-dot.edge("view_campaigns", "donate_decision")
-dot.edge("donate_decision", "choose_campaign", label="Yes")
-dot.edge("donate_decision", "smart_donate", label="No")
-dot.edge("choose_campaign", "payment")
-dot.edge("smart_donate", "payment")
-dot.edge("payment", "donation_data")
-dot.edge("payment", "upload_ss")
-dot.edge("upload_ss", "donor_done")
+def load_metadata():
+    df = pd.read_csv(META_DATA_PATH)
+    return df
 
-# NGO flow
-dot.edge("login_ngo", "submit_campaign")
-dot.edge("submit_campaign", "docs")
-dot.edge("docs", "admin_review")
-dot.edge("admin_review", "review_decision")
-dot.edge("review_decision", "ngo_dashboard", label="Yes")
-dot.edge("review_decision", "submit_campaign", label="No (Revise)")
-dot.edge("ngo_dashboard", "bills")
-dot.edge("bills", "ngo_data")
 
-# Field Agent flow
-dot.edge("ngo_dashboard", "agent_login")
-dot.edge("agent_login", "agent_dashboard")
-dot.edge("agent_dashboard", "start_distribution")
-dot.edge("start_distribution", "verify_id")
-dot.edge("verify_id", "dup_decision")
-dot.edge("dup_decision", "record_beneficiary", label="No")
-dot.edge("dup_decision", "agent_dashboard", label="Yes")
-dot.edge("record_beneficiary", "aid_entry")
-dot.edge("aid_entry", "agent_data")
+def load_videos():
+    metadata_df = load_metadata()
+    sampled_df = metadata_df.sample(n=min(1000, len(metadata_df)), random_state=42)
 
-# Save diagram
-file_path = "/mnt/data/aidverify_line_flow.png"
-dot.render(file_path, cleanup=True)
-file_path
+    for _, row in tqdm(sampled_df.iterrows(), total=len(sampled_df), desc="Evaluating"):
+            if row['race'] == ["African","Asian (East)"]:
+                video_path = row['path']
+                video_name = row['filename']
+                label = 1 if row['category'] in ['C', 'D'] else 0
+            
+            # Look for face images from this video
+            pred_file = os.path.join(video_path,video_name)
+            if not os.path.exists(pred_file):
+                continue

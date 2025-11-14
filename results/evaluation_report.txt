@@ -1,0 +1,16 @@
+Deepfake Detection Evaluation Report
+========================================
+
+Fusion Model Accuracy: 0.7100
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.58      0.82      0.68        50
+           B       0.81      0.86      0.83        50
+           C       0.65      0.40      0.49        50
+           D       0.84      0.76      0.80        50
+
+    accuracy                           0.71       200
+   macro avg       0.72      0.71      0.70       200
+weighted avg       0.72      0.71      0.70       200

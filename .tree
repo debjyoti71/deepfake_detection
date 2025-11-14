@@ -1,83 +1,52 @@
-deepfake_detection/
-│
-├── data/                                 # All datasets and preprocessed features
-│   ├── raw/                              # Original videos
-│   │   ├── RealVideo-RealAudio/          # Category A (Real Video + Real Audio) ✅
-│   │   │   ├── African/men/id00076/      # Example ID folder
-│   │   │   │   ├── video1.mp4            # Original video
-│   │   │   │   ├── video1.txt            # Transcript of audio ✅
-│   │   │   │   ├── video2.mp4
-│   │   │   │   ├── video2.txt
-│   │   │   │   └── ...
-│   │   │   └── women/...
-│   │   └── Asian/...
-│   │
-│   │   ├── RealVideo-FakeAudio/          # Category B (Real Video + Fake Audio) ✅
-│   │   │   ├── African/men/id00076/*.mp4
-│   │   │   └── ...
-│   │   ├── FakeVideo-RealAudio/          # Category C (Fake Video + Real Audio) ✅
-│   │   │   └── African/men/id00076/*.mp4
-│   │   └── FakeVideo-FakeAudio/          # Category D (Fake Video + Fake Audio) ✅
-│   │       └── African/men/id00076/*.mp4
-│   │
-│   ├── processed/                        # Preprocessed data for models
-│   │   ├── frames/                        # Extracted face crops from videos ✅
-│   │   │   ├── <video_id>/frame_001.jpg
-│   │   │   └── ...
-│   │   ├── audio/                         # Cleaned .wav audio files ✅
-│   │   │   ├── <video_id>.wav
-│   │   ├── audio_features/                # Mel-spectrograms / embeddings ✅
-│   │   │   ├── <video_id>.npy
-│   │   └── sync_data/                     # Mouth crops + audio chunks for lip-sync ✅
-│   └── metadata.csv                        # Video metadata (labels, category, gender, etc.) ✅
-│
-├── src/                                   # Source code
-│   ├── preprocessing/                     # Data preparation scripts
-│   │   ├── extract_frames.py              # Extract frames from videos ✅
-│   │   ├── face_detection.py              # Detect faces in frames ✅
-│   │   ├── extract_audio.py               # Extract audio from videos ✅
-│   │   └── feature_extraction.py          # Convert audio → features, align lips & audio ✅
-│   │
-│   ├── models/                            # Model definitions
-│   │   ├── visual_model.py                # CNN/Transformer for frames ✅
-│   │   ├── audio_model.py                 # CNN/Transformer for audio ✅
-│   │   ├── sync_model.py                  # Lip-sync detection ✅
-│   │   └── fusion_model.py                # Combine visual+audio+sync predictions ✅
-│   │
-│   ├── training/                          # Training scripts
-│   │   ├── train_visual.py                # Train visual model ✅
-│   │   ├── train_audio.py                 # Train audio model ✅
-│   │   ├── train_sync.py                  # Train sync model ✅
-│   │   ├── train_fusion.py                # Train fusion model ✅
-│   │   └── utils.py                        # Shared utilities
-│   │
-│   ├── evaluation/                        # Model evaluation scripts
-│   │   ├── evaluate.py                     # Evaluate models (visual, audio, sync, fusion) ✅
-│   │   ├── metrics.py                      # Accuracy, F1, confusion matrix
-│   │   └── explainability.py               # Grad-CAM, heatmaps, spectrogram visualizations ✅
-│   │
-│   └── api/                               # REST API for inference
-│       ├── main.py                         # `/predict` endpoint ✅
-│       ├── inference.py                    # Loads models & runs predictions
-│       └── utils.py                        # Shared API utilities
-│
-├── models/                                # Saved trained model weights
-│   ├── visual_model.pth ✅
-│   ├── audio_model.pth ✅
-│   ├── sync_model.pth ✅
-│   └── fusion_model.pth ✅
-│
-├── notebooks/                             # Jupyter notebooks for experimentation
-│   ├── EDA.ipynb                           # Exploratory Data Analysis
-│   ├── Train_Visual.ipynb                  # Visual model experiments
-│   └── Train_Audio.ipynb                   # Audio model experiments
-│
-├── results/                               # Output results
-│   ├── logs/                               # Training logs (TensorBoard/W&B)
-│   ├── predictions/                        # CSV/JSON predictions ✅
-│   └── explainability/                     # Grad-CAM heatmaps, sync plots ✅
-│
-├── .tree                                  # File tree (optional)
-├── requirements.txt                        # Python dependencies
-├── README.md                               # Project overview
-└── config.yaml                             # Configurations (paths, hyperparameters)
+deepfake_detction_2/
+├── .env                           # Environment configuration
+├── .gitignore                     # Git ignore rules
+├── README.md                      # Project documentation
+├── requirements.txt               # Python dependencies
+├── run_pipeline.py                # Main pipeline runner
+├── test_pipeline.py               # Pipeline testing
+├── src/                           # Source code
+│   ├── preprocessing/             # Data preprocessing modules
+│   │   ├── __init__.py
+│   │   ├── extract_frames.py      # Video frame extraction
+│   │   ├── face_detection.py      # Face detection and cropping
+│   │   ├── extract_audio.py       # Audio extraction from videos
+│   │   ├── feature_extraction.py  # Audio feature extraction
+│   │   ├── sync_preprocess.py     # Lip-sync preprocessing
+│   │   └── data_processor.py      # Main data processing pipeline
+│   ├── models/                    # Model architectures
+│   │   ├── __init__.py
+│   │   ├── visual_model.py        # CNN for face manipulation detection
+│   │   ├── audio_model.py         # CNN for voice synthesis detection
+│   │   ├── sync_model.py          # LSTM for lip-sync detection
+│   │   └── fusion_model.py        # Multi-modal fusion model
+│   ├── training/                  # Training scripts
+│   │   ├── __init__.py
+│   │   ├── train_visual.py        # Visual model training
+│   │   ├── train_audio.py         # Audio model training
+│   │   ├── train_sync.py          # Sync model training
+│   │   └── train_fusion.py        # Fusion model training
+│   ├── evaluation/                # Evaluation and metrics
+│   │   ├── __init__.py
+│   │   ├── evaluate.py            # Model evaluation
+│   │   └── explainability.py      # Grad-CAM visualizations
+│   └── api/                       # FastAPI deployment
+│       ├── __init__.py
+│       ├── main.py                # FastAPI server
+│       └── inference.py           # Inference pipeline
+├── models/                        # Trained model weights
+│   ├── visual_model/
+│   │   └── visual_model.pth
+│   ├── audio_model/
+│   │   └── audio_model.pth
+│   ├── sync_model/
+│   │   └── sync_model.pth
+│   └── fusion_model/
+│       └── fusion_model.pth
+├── results/                       # Evaluation results
+│   ├── evaluation/                # Performance metrics
+│   └── explainability/            # Visualization outputs
+└── notebooks/                     # Jupyter notebooks
+    ├── data_exploration.ipynb     # Dataset analysis
+    ├── model_analysis.ipynb       # Model performance analysis
+    └── visualization.ipynb        # Results visualization

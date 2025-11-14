@@ -1,0 +1,65 @@
+# Deepfake Detection System - Commands & Purpose
+
+## Environment Setup
+python -m venv venv                    # Create virtual environment
+venv\Scripts\activate                  # Activate virtual environment (Windows)
+pip install -r requirements.txt       # Install all dependencies
+
+## Configuration
+# Edit .env file to configure:
+# - FILTER_BY_RACE=True/False          # Filter dataset by race
+# - SELECTED_RACES=Asian (East)        # Choose specific races
+# - MAX_SAMPLES_PER_CATEGORY=25        # Limit samples per category
+# - BATCH_SIZE=16                      # Training batch size
+
+## Main Pipeline Commands
+python test_pipeline.py               # Test data filtering and file paths
+python run_pipeline.py                # Run complete pipeline (process → train → evaluate)
+
+## Individual Components (Optional)
+python src/preprocessing/data_processor.py    # Process videos only
+python src/training/trainer.py               # Train models only
+python src/evaluation/evaluator.py           # Evaluate models only
+
+## Data Processing Steps (Automated in pipeline)
+# 1. Extract frames from videos
+# 2. Detect and crop faces from frames  
+# 3. Extract audio from videos
+# 4. Convert audio to mel-spectrograms
+# 5. Create train/validation splits
+
+## Model Training Steps (Automated in pipeline)
+# 1. Train Visual Model (ResNet18) - Binary classification (Real/Fake)
+# 2. Train Audio Model (CNN) - Binary classification (Real/Fake)
+# 3. Train Fusion Model (MLP) - 4-class classification (A/B/C/D)
+
+## Evaluation & Results
+# Results saved to: results/evaluation/
+# - Confusion matrices (.png)
+# - ROC curves (.png)
+# - Score distributions (.png)
+# - Model accuracy metrics (console output)
+
+## File Structure Purpose
+src/config.py                 # Load environment variables
+src/utils/data_filter.py      # Filter dataset based on config
+src/preprocessing/data_processor.py  # Extract frames, faces, audio
+src/data/dataset.py           # PyTorch dataset classes
+src/data/data_loader.py       # Data loading and splitting
+src/models/visual_model.py    # ResNet18 for face detection
+src/models/audio_model.py     # CNN for audio spectrograms
+src/models/fusion_model.py    # Multi-modal fusion classifier
+src/training/trainer.py       # Train all models
+src/evaluation/evaluator.py   # Evaluate and save results
+
+## Categories Explanation
+# A = RealVideo-RealAudio (Authentic)
+# B = RealVideo-FakeAudio (Voice cloned)
+# C = FakeVideo-RealAudio (Face swapped)
+# D = FakeVideo-FakeAudio (Both manipulated)
+
+## Quick Start
+1. Edit .env for your data preferences
+2. python test_pipeline.py (verify setup)
+3. python run_pipeline.py (run everything)
+4. Check results/evaluation/ for outputs

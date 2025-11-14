@@ -151,17 +151,36 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-### Data Preparation
+### Configuration
+Edit `.env` file to configure data filtering:
 ```bash
-# Extract frames from videos
-python src/preprocessing/extract_frames.py
+# Filter by specific race (e.g., only Asian data)
+FILTER_BY_RACE=True
+SELECTED_RACES=Asian (East)
 
-# Detect and crop faces
-python src/preprocessing/face_detection.py
+# Limit data size for faster processing
+MAX_SAMPLES_PER_CATEGORY=50
+MAX_TOTAL_SAMPLES=200
 
-# Extract audio features
-python src/preprocessing/extract_audio.py
-python src/preprocessing/feature_extraction.py
+# Adjust detection thresholds
+CONFIDENCE_THRESHOLD=0.5
+DETECTION_THRESHOLD=0.7
+```
+
+### Run Complete Pipeline
+```bash
+# Process data, train models, and evaluate
+python run_pipeline.py
+```
+
+### Manual Steps (Optional)
+```bash
+# Data processing only
+python src/preprocessing/data_processor.py
+
+# Train individual models
+python src/training/train_visual.py
+python src/training/train_audio.py
 ```
 
 ### Training Models
@@ -203,6 +222,32 @@ uvicorn src.api.main:app --reload
 
 Each video is categorized based on authenticity of visual and audio components.
 
+## ⚙️ Configuration Options
+
+### Environment Variables (`.env`)
+
+**Data Filtering:**
+- `FILTER_BY_RACE`: Enable/disable race filtering
+- `SELECTED_RACES`: Comma-separated list of races to include
+- `FILTER_BY_GENDER`: Enable/disable gender filtering  
+- `SELECTED_GENDERS`: men, women, or both
+- `FILTER_BY_CATEGORY`: Enable/disable category filtering
+- `SELECTED_CATEGORIES`: A, B, C, D categories
+
+**Data Limits:**
+- `MAX_SAMPLES_PER_CATEGORY`: Limit samples per category (default: 100)
+- `MAX_TOTAL_SAMPLES`: Total sample limit (default: 1000)
+
+**Model Thresholds:**
+- `CONFIDENCE_THRESHOLD`: Model confidence threshold (default: 0.5)
+- `DETECTION_THRESHOLD`: Detection threshold (default: 0.7)
+- `SYNC_THRESHOLD`: Audio-visual sync threshold (default: 0.6)
+
+**Processing Options:**
+- `BATCH_SIZE`: Training batch size (default: 32)
+- `MAX_FRAMES_PER_VIDEO`: Frames to extract per video (default: 16)
+- `IMAGE_SIZE`: Image dimensions (default: 224)
+
 ## 🎯 Model Performance
 
 Results are saved in `results/evaluation/`:
@@ -218,7 +263,28 @@ Results are saved in `results/evaluation/`:
 - **Comprehensive Evaluation**: Multiple metrics and visualizations
 - **Modular Design**: Each component can be trained/evaluated independently
 
-## 📝 Usage Example
+## 📝 Usage Examples
+
+### Configuration Examples
+
+```bash
+# Process only Asian (East) male data
+FILTER_BY_RACE=True
+SELECTED_RACES=Asian (East)
+FILTER_BY_GENDER=True
+SELECTED_GENDERS=men
+MAX_SAMPLES_PER_CATEGORY=25
+
+# Process only real vs fake video (categories A and C)
+FILTER_BY_CATEGORY=True
+SELECTED_CATEGORIES=A,C
+
+# High precision detection
+CONFIDENCE_THRESHOLD=0.8
+DETECTION_THRESHOLD=0.9
+```
+
+### API Usage
 
 ```python
 # Upload video to API
